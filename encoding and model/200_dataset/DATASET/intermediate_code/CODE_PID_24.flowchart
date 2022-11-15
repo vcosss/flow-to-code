@@ -1,0 +1,11 @@
+st3=>start: start fun24
+io5=>inputoutput: input: x, y
+op8=>operation: z = (x / y)
+io13=>inputoutput: output:  z
+e11=>end: end function return
+
+st3->io5
+io5->op8
+op8->io13
+io13->e11
+

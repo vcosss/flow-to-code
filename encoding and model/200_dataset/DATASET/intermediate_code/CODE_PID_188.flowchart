@@ -1,0 +1,13 @@
+st3=>start: start fun188
+io5=>inputoutput: input: P, R, T
+op8=>operation: A = (P * ((1 + (R / 100)) ** T))
+op10=>operation: CI = (A - P)
+io15=>inputoutput: output:  CI
+e13=>end: end function return
+
+st3->io5
+io5->op8
+op8->op10
+op10->io15
+io15->e13
+

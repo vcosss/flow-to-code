@@ -1,0 +1,13 @@
+st3=>start: start fun76
+io5=>inputoutput: input: N
+op8=>operation: sum = 0
+cond11=>operation: sum = (sum + i) while  i in range(0, (N + 1), 2)
+io26=>inputoutput: output:  sum
+e24=>end: end function return
+
+st3->io5
+io5->op8
+op8->cond11
+cond11->io26
+io26->e24
+

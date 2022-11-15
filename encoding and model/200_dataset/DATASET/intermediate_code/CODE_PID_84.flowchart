@@ -1,0 +1,20 @@
+st3=>start: start fun84
+io5=>inputoutput: input: num
+op8=>operation: rev = 0
+cond11=>condition: while (num != 0)
+op22=>operation: d = (num % 10)
+op24=>operation: rev = ((rev * 10) + d)
+op26=>operation: num = (num // 10)
+io33=>inputoutput: output:  rev
+e31=>end: end function return
+
+st3->io5
+io5->op8
+op8->cond11
+cond11(yes)->op22
+op22->op24
+op24->op26
+op26(left)->cond11
+cond11(no)->io33
+io33->e31
+

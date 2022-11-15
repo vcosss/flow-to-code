@@ -1,0 +1,13 @@
+st3=>start: start fun112
+io5=>inputoutput: input: N, M
+op8=>operation: ans = 0
+cond11=>operation: ans = (ans + M) while  i in range(N)
+io26=>inputoutput: output:  ans
+e24=>end: end function return
+
+st3->io5
+io5->op8
+op8->cond11
+cond11->io26
+io26->e24
+

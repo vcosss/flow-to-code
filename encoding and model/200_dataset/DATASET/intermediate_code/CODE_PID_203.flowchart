@@ -1,0 +1,44 @@
+st3=>start: start fun203
+io5=>inputoutput: input: N
+op8=>operation: a = 0
+op10=>operation: b = 1
+op12=>operation: c = 2
+cond15=>condition: if (N == 1)
+io22=>inputoutput: output:  a
+e20=>end: end function return
+cond28=>condition: if (N == 2)
+io35=>inputoutput: output:  b
+e33=>end: end function return
+cond41=>condition: if (N == 3)
+io48=>inputoutput: output:  c
+e46=>end: end function return
+cond54=>condition: for i in range(4, (N + 1))
+op67=>operation: d = ((a + b) + c)
+op69=>operation: a = b
+op71=>operation: b = c
+op73=>operation: c = d
+io80=>inputoutput: output:  d
+e78=>end: end function return
+
+st3->io5
+io5->op8
+op8->op10
+op10->op12
+op12->cond15
+cond15(yes)->io22
+io22->e20
+cond15(no)->cond28
+cond28(yes)->io35
+io35->e33
+cond28(no)->cond41
+cond41(yes)->io48
+io48->e46
+cond41(no)->cond54
+cond54(yes)->op67
+op67->op69
+op69->op71
+op71->op73
+op73(left)->cond54
+cond54(no)->io80
+io80->e78
+

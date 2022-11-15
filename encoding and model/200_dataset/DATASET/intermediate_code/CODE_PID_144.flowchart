@@ -1,0 +1,28 @@
+st3=>start: start fun144
+io5=>inputoutput: input: num
+op8=>operation: nums = num
+op10=>operation: rev = 0
+cond13=>condition: while (num != 0)
+op24=>operation: d = (num % 10)
+op26=>operation: rev = ((rev * 10) + d)
+op28=>operation: num = (num // 10)
+cond33=>condition: if (rev == num)
+io40=>inputoutput: output:  'Palindrome Number'
+e38=>end: end function return
+io48=>inputoutput: output:  'Not a Palindrome Number'
+e46=>end: end function return
+
+st3->io5
+io5->op8
+op8->op10
+op10->cond13
+cond13(yes)->op24
+op24->op26
+op26->op28
+op28(left)->cond13
+cond13(no)->cond33
+cond33(yes)->io40
+io40->e38
+cond33(no)->io48
+io48->e46
+

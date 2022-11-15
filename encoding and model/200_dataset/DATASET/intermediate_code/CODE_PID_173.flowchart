@@ -1,0 +1,22 @@
+st3=>start: start fun173
+io5=>inputoutput: input: string
+op8=>operation: length = len(string)
+op10=>operation: new = ''
+op12=>operation: i = (length - 1)
+cond15=>condition: while (i >= 0)
+op24=>operation: new = (new + string[i])
+op26=>operation: i = (i - 1)
+io33=>inputoutput: output:  new
+e31=>end: end function return
+
+st3->io5
+io5->op8
+op8->op10
+op10->op12
+op12->cond15
+cond15(yes)->op24
+op24->op26
+op26(left)->cond15
+cond15(no)->io33
+io33->e31
+

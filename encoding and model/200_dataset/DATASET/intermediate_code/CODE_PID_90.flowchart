@@ -1,0 +1,24 @@
+st3=>start: start fun90
+io5=>inputoutput: input: num
+op8=>operation: res = 0
+op10=>operation: order = 1
+cond13=>condition: while (num != 0)
+op26=>operation: rem = (num % 8)
+op28=>operation: res = ((rem * order) + res)
+op30=>operation: num = (num // 8)
+op32=>operation: order = (order * 10)
+io39=>inputoutput: output:  res
+e37=>end: end function return
+
+st3->io5
+io5->op8
+op8->op10
+op10->cond13
+cond13(yes)->op26
+op26->op28
+op28->op30
+op30->op32
+op32(left)->cond13
+cond13(no)->io39
+io39->e37
+

@@ -1,0 +1,22 @@
+st3=>start: start fun115
+io5=>inputoutput: input: num1, num2
+op8=>operation: hcf = 0
+op10=>operation: limit = min(num1, num2)
+op12=>operation: i = 1
+cond15=>condition: while (i <= limit)
+cond34=>operation: hcf = i if  (((num1 % i) == 0) and ((num2 % i) == 0))
+op44=>operation: i = (i + 1)
+io51=>inputoutput: output:  hcf
+e49=>end: end function return
+
+st3->io5
+io5->op8
+op8->op10
+op10->op12
+op12->cond15
+cond15(yes)->cond34
+cond34->op44
+op44(left)->cond15
+cond15(no)->io51
+io51->e49
+

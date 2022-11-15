@@ -1,0 +1,17 @@
+st3=>start: start fun63
+io5=>inputoutput: input: ch
+op8=>operation: ascii = ord(ch)
+cond11=>condition: if ((ascii >= 65) and (ascii <= 90))
+io18=>inputoutput: output:  'Upper case'
+e16=>end: end function return
+io26=>inputoutput: output:  'Lower case'
+e24=>end: end function return
+
+st3->io5
+io5->op8
+op8->cond11
+cond11(yes)->io18
+io18->e16
+cond11(no)->io26
+io26->e24
+

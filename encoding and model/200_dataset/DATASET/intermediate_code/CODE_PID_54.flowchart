@@ -1,0 +1,21 @@
+st3=>start: start fun54
+io5=>inputoutput: input: len1, len2, len3
+cond9=>condition: if (len1 == len2 == len3)
+io16=>inputoutput: output:  'EQUILATERAL TRIANGLE'
+e14=>end: end function return
+cond22=>condition: if ((len1 == len2) or (len2 == len3) or (len3 == len1))
+io29=>inputoutput: output:  'ISOSCELES TRIANGLE'
+e27=>end: end function return
+io37=>inputoutput: output:  'SCALENE TRIANGLE'
+e35=>end: end function return
+
+st3->io5
+io5->cond9
+cond9(yes)->io16
+io16->e14
+cond9(no)->cond22
+cond22(yes)->io29
+io29->e27
+cond22(no)->io37
+io37->e35
+

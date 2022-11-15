@@ -1,0 +1,15 @@
+st3=>start: start fun56
+io5=>inputoutput: input: CP, SP
+cond9=>condition: if (CP > SP)
+io16=>inputoutput: output:  (CP - SP)
+e14=>end: end function return
+io24=>inputoutput: output:  (SP - CP)
+e22=>end: end function return
+
+st3->io5
+io5->cond9
+cond9(yes)->io16
+io16->e14
+cond9(no)->io24
+io24->e22
+

@@ -1,0 +1,20 @@
+st3=>start: start fun113
+io5=>inputoutput: input: N, M
+op8=>operation: ans = 0
+op10=>operation: i = 1
+cond13=>condition: while (i <= N)
+op22=>operation: ans = (ans + M)
+op24=>operation: i = (i + 1)
+io31=>inputoutput: output:  ans
+e29=>end: end function return
+
+st3->io5
+io5->op8
+op8->op10
+op10->cond13
+cond13(yes)->op22
+op22->op24
+op24(left)->cond13
+cond13(no)->io31
+io31->e29
+

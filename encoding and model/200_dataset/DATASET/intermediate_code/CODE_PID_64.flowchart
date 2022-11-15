@@ -1,0 +1,17 @@
+st3=>start: start fun64
+io5=>inputoutput: input: ch
+op8=>operation: ascii = ord(ch)
+cond11=>condition: if ((ascii >= 48) and (ascii <= 57))
+io18=>inputoutput: output:  'A Digit'
+e16=>end: end function return
+io26=>inputoutput: output:  'Not a Digit'
+e24=>end: end function return
+
+st3->io5
+io5->op8
+op8->cond11
+cond11(yes)->io18
+io18->e16
+cond11(no)->io26
+io26->e24
+

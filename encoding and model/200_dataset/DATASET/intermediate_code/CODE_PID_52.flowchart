@@ -1,0 +1,15 @@
+st3=>start: start fun52
+io5=>inputoutput: input: angle1, angle2, angle3
+cond9=>condition: if (((angle1 + angle2) + angle3) == 180)
+io16=>inputoutput: output:  'Forms Valid Triangle'
+e14=>end: end function return
+io24=>inputoutput: output:  'Cannot form a Valid Triangle'
+e22=>end: end function return
+
+st3->io5
+io5->cond9
+cond9(yes)->io16
+io16->e14
+cond9(no)->io24
+io24->e22
+

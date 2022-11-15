@@ -1,0 +1,16 @@
+st3=>start: start fun43
+io5=>inputoutput: input: x, y
+cond9=>condition: if (x < y)
+op13=>operation: mn = x
+io23=>inputoutput: output:  mn
+e21=>end: end function return
+op17=>operation: mn = y
+
+st3->io5
+io5->cond9
+cond9(yes)->op13
+op13->io23
+io23->e21
+cond9(no)->op17
+op17->io23
+

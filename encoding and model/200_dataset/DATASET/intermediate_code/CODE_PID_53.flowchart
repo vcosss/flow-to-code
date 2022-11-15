@@ -1,0 +1,15 @@
+st3=>start: start fun53
+io5=>inputoutput: input: len1, len2, len3
+cond9=>condition: if (((len1 + len2) > len3) and ((len2 + len3) > len1) and ((len1 + len3) > len2))
+io16=>inputoutput: output:  'VALID TRIANGLE'
+e14=>end: end function return
+io24=>inputoutput: output:  'NOT A VALID TRIANGLE'
+e22=>end: end function return
+
+st3->io5
+io5->cond9
+cond9(yes)->io16
+io16->e14
+cond9(no)->io24
+io24->e22
+

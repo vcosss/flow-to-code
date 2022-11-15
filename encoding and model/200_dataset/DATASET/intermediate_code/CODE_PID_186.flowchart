@@ -1,0 +1,11 @@
+st3=>start: start fun186
+io5=>inputoutput: input: a, r, N
+op8=>operation: sum = (a(((r ** N) - 1)) / (r - 1))
+io13=>inputoutput: output:  sum
+e11=>end: end function return
+
+st3->io5
+io5->op8
+op8->io13
+io13->e11
+

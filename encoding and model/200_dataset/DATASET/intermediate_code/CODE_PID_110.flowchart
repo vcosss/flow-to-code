@@ -1,0 +1,13 @@
+st3=>start: start fun110
+io5=>inputoutput: input: base, exp
+op8=>operation: ans = 1
+cond11=>operation: ans = (ans * base) while  i in range((exp + 1))
+io26=>inputoutput: output:  ans
+e24=>end: end function return
+
+st3->io5
+io5->op8
+op8->cond11
+cond11->io26
+io26->e24
+

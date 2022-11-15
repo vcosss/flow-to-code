@@ -1,0 +1,22 @@
+st3=>start: start fun142
+io5=>inputoutput: input: num
+op8=>operation: count = 0
+cond11=>condition: for i in range(1, (num + 1))
+cond28=>operation: count = (count + 1) if  ((num % i) == 0)
+cond41=>condition: if (count == 2)
+io48=>inputoutput: output:  'Prime Number'
+e46=>end: end function return
+io56=>inputoutput: output:  'Composite Number'
+e54=>end: end function return
+
+st3->io5
+io5->op8
+op8->cond11
+cond11(yes)->cond28
+cond28->cond11
+cond11(no)->cond41
+cond41(yes)->io48
+io48->e46
+cond41(no)->io56
+io56->e54
+

@@ -1,0 +1,15 @@
+st3=>start: start fun123
+io5=>inputoutput: input: a, d, N
+op8=>operation: term = a
+cond11=>operation: term = (term + d) while  i in range(1, N)
+op23=>operation: term = (1 / term)
+io28=>inputoutput: output:  term
+e26=>end: end function return
+
+st3->io5
+io5->op8
+op8->cond11
+cond11->op23
+op23->io28
+io28->e26
+

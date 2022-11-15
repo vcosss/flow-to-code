@@ -1,0 +1,21 @@
+st3=>start: start fun44
+io5=>inputoutput: input: x, y, z
+cond9=>condition: if ((x < y) and (x < z))
+op13=>operation: mn = x
+io33=>inputoutput: output:  mn
+e31=>end: end function return
+cond18=>condition: if ((y < x) and (y < z))
+op22=>operation: mn = y
+op26=>operation: mn = z
+
+st3->io5
+io5->cond9
+cond9(yes)->op13
+op13->io33
+io33->e31
+cond9(no)->cond18
+cond18(yes)->op22
+op22->io33
+cond18(no)->op26
+op26->io33
+

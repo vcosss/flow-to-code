@@ -1,0 +1,24 @@
+st3=>start: start fun198
+io5=>inputoutput: input: string
+op8=>operation: length = len(string)
+op10=>operation: new = ''
+op12=>operation: i = 0
+cond15=>condition: while (i < length)
+op35=>operation: ascii = ord(string[i])
+cond38=>operation: new = (new + string[i]) if  ((ascii >= 97) and (ascii <= 122))
+op48=>operation: i = (i + 1)
+io55=>inputoutput: output:  new
+e53=>end: end function return
+
+st3->io5
+io5->op8
+op8->op10
+op10->op12
+op12->cond15
+cond15(yes)->op35
+op35->cond38
+cond38->op48
+op48(left)->cond15
+cond15(no)->io55
+io55->e53
+

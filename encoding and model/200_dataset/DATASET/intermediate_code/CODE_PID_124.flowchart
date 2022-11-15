@@ -1,0 +1,22 @@
+st3=>start: start fun124
+io5=>inputoutput: input: a, d, N
+op8=>operation: term = a
+op10=>operation: i = 1
+cond13=>condition: while (i < N)
+op22=>operation: term = (term + d)
+op24=>operation: i = (i + 1)
+op28=>operation: term = (1 / term)
+io33=>inputoutput: output:  term
+e31=>end: end function return
+
+st3->io5
+io5->op8
+op8->op10
+op10->cond13
+cond13(yes)->op22
+op22->op24
+op24(left)->cond13
+cond13(no)->op28
+op28->io33
+io33->e31
+

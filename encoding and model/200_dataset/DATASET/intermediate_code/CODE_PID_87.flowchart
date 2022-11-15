@@ -1,0 +1,20 @@
+st3=>start: start fun87
+io5=>inputoutput: input: num
+op8=>operation: ceven = 0
+cond11=>condition: while (num != 0)
+op31=>operation: d = (num % 10)
+cond34=>operation: ceven = (ceven + 1) if  ((d % 2) == 0)
+op44=>operation: num = (num // 10)
+io51=>inputoutput: output:  ceven
+e49=>end: end function return
+
+st3->io5
+io5->op8
+op8->cond11
+cond11(yes)->op31
+op31->cond34
+cond34->op44
+op44(left)->cond11
+cond11(no)->io51
+io51->e49
+

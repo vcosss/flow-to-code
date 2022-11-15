@@ -1,0 +1,20 @@
+st3=>start: start fun137
+io5=>inputoutput: input: num
+op8=>operation: limit = (num // 2)
+op10=>operation: i = 1
+op12=>operation: root = 0
+cond15=>condition: while (i <= limit)
+cond32=>operation: root = i if  ((i * i) <= num)
+io47=>inputoutput: output:  root
+e45=>end: end function return
+
+st3->io5
+io5->op8
+op8->op10
+op10->op12
+op12->cond15
+cond15(yes)->cond32
+cond32->cond15
+cond15(no)->io47
+io47->e45
+

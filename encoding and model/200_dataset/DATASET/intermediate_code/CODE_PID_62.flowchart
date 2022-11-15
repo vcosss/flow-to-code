@@ -1,0 +1,23 @@
+st3=>start: start fun62
+io5=>inputoutput: input: a, b, c
+op8=>operation: d = ((b * b) - ((4 * a) * c))
+cond11=>condition: if (d > 0)
+io18=>inputoutput: output:  'Roots are real and different'
+e16=>end: end function return
+cond24=>condition: if (d < 0)
+io31=>inputoutput: output:  'Roots are complex and different'
+e29=>end: end function return
+io39=>inputoutput: output:  'Roots are real and equal'
+e37=>end: end function return
+
+st3->io5
+io5->op8
+op8->cond11
+cond11(yes)->io18
+io18->e16
+cond11(no)->cond24
+cond24(yes)->io31
+io31->e29
+cond24(no)->io39
+io39->e37
+

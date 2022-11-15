@@ -1,0 +1,24 @@
+st3=>start: start fun181
+io5=>inputoutput: input: string, char
+op8=>operation: length = len(string)
+op10=>operation: index = (- 1)
+op12=>operation: i = 0
+cond15=>condition: while (i < length)
+op35=>operation: ch = string[i]
+cond38=>operation: index = i if  (ch == char)
+op48=>operation: i = (i + 1)
+io55=>inputoutput: output:  index
+e53=>end: end function return
+
+st3->io5
+io5->op8
+op8->op10
+op10->op12
+op12->cond15
+cond15(yes)->op35
+op35->cond38
+cond38->op48
+op48(left)->cond15
+cond15(no)->io55
+io55->e53
+

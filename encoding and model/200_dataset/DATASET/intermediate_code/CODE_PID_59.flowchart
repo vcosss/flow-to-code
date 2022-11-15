@@ -1,0 +1,27 @@
+st3=>start: start fun59
+io5=>inputoutput: input: x, y
+cond9=>condition: if ((x >= 0) and (y >= 0))
+io16=>inputoutput: output:  'First Quadrant'
+e14=>end: end function return
+cond22=>condition: if ((x < 0) and (y >= 0))
+io29=>inputoutput: output:  'Second Quadrant'
+e27=>end: end function return
+cond35=>condition: if ((x < 0) and (y < 0))
+io42=>inputoutput: output:  'Third Quadrant'
+e40=>end: end function return
+io50=>inputoutput: output:  'Fourth Quadrant'
+e48=>end: end function return
+
+st3->io5
+io5->cond9
+cond9(yes)->io16
+io16->e14
+cond9(no)->cond22
+cond22(yes)->io29
+io29->e27
+cond22(no)->cond35
+cond35(yes)->io42
+io42->e40
+cond35(no)->io50
+io50->e48
+

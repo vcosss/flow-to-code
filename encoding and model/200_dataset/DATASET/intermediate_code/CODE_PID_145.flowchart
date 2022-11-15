@@ -1,0 +1,39 @@
+st3=>start: start fun145
+io5=>inputoutput: input: num
+op8=>operation: nums = num
+op10=>operation: order = 0
+cond13=>condition: while (num != 0)
+op22=>operation: order = (order + 1)
+op24=>operation: num = (num // 10)
+op28=>operation: num = nums
+op30=>operation: sum = 0
+cond33=>condition: while (num != 0)
+op44=>operation: digit = (num % 10)
+op46=>operation: sum = (sum + (digit ** order))
+op48=>operation: num = (num // 10)
+cond53=>condition: if (sum == nums)
+io60=>inputoutput: output:  'Armstrong Number'
+e58=>end: end function return
+io68=>inputoutput: output:  'Not an Armstrong Number'
+e66=>end: end function return
+
+st3->io5
+io5->op8
+op8->op10
+op10->cond13
+cond13(yes)->op22
+op22->op24
+op24(left)->cond13
+cond13(no)->op28
+op28->op30
+op30->cond33
+cond33(yes)->op44
+op44->op46
+op46->op48
+op48(left)->cond33
+cond33(no)->cond53
+cond53(yes)->io60
+io60->e58
+cond53(no)->io68
+io68->e66
+

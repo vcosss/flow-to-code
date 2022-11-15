@@ -1,0 +1,13 @@
+st3=>start: start fun125
+io5=>inputoutput: input: N
+op8=>operation: term = 1
+cond11=>operation: term = ((term * 10) + 1) while  i in range(1, N)
+io26=>inputoutput: output:  term
+e24=>end: end function return
+
+st3->io5
+io5->op8
+op8->cond11
+cond11->io26
+io26->e24
+

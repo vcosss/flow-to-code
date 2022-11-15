@@ -1,0 +1,18 @@
+st3=>start: start fun55
+io5=>inputoutput: input: choice, P, R, T
+cond9=>condition: if (choice == 1)
+op13=>operation: A = (P * ((1 + (R / 100)) ** T))
+op15=>operation: I = (A - P)
+io25=>inputoutput: output:  I
+e23=>end: end function return
+op19=>operation: I = (((P * R) * T) / 100)
+
+st3->io5
+io5->cond9
+cond9(yes)->op13
+op13->op15
+op15->io25
+io25->e23
+cond9(no)->op19
+op19->io25
+

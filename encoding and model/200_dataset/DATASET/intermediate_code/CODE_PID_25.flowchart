@@ -1,0 +1,11 @@
+st3=>start: start fun25
+io5=>inputoutput: input: m
+op8=>operation: cm = (m * 100)
+io13=>inputoutput: output:  cm
+e11=>end: end function return
+
+st3->io5
+io5->op8
+op8->io13
+io13->e11
+

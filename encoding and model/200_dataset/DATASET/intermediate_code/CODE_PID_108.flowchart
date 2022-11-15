@@ -1,0 +1,16 @@
+st3=>start: start fun108
+io5=>inputoutput: input: num
+op8=>operation: sum = 0
+cond11=>condition: for i in range(1, (num + 1))
+cond28=>operation: sum = (sum + i) if  ((num % i) == 0)
+io43=>inputoutput: output:  sum
+e41=>end: end function return
+
+st3->io5
+io5->op8
+op8->cond11
+cond11(yes)->cond28
+cond28->cond11
+cond11(no)->io43
+io43->e41
+

@@ -1,0 +1,26 @@
+st3=>start: start fun149
+io5=>inputoutput: input: num
+op8=>operation: flag = True
+cond11=>condition: while (num != 0)
+op31=>operation: digit = (num % 10)
+cond34=>operation: flag = False if  (digit > 7)
+op44=>operation: num = (num // 10)
+cond49=>condition: if (flag == True)
+io56=>inputoutput: output:  'Valid'
+e54=>end: end function return
+io64=>inputoutput: output:  'Invalid'
+e62=>end: end function return
+
+st3->io5
+io5->op8
+op8->cond11
+cond11(yes)->op31
+op31->cond34
+cond34->op44
+op44(left)->cond11
+cond11(no)->cond49
+cond49(yes)->io56
+io56->e54
+cond49(no)->io64
+io64->e62
+

@@ -1,0 +1,11 @@
+st3=>start: start fun3
+io5=>inputoutput: input: x
+op8=>operation: z = ((x // 2) + (x % 2))
+io13=>inputoutput: output:  z
+e11=>end: end function return
+
+st3->io5
+io5->op8
+op8->io13
+io13->e11
+

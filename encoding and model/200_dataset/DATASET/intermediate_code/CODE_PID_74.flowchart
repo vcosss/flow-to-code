@@ -1,0 +1,13 @@
+st3=>start: start fun74
+io5=>inputoutput: input: N
+op8=>operation: pro = 1
+cond11=>operation: pro = (pro * i) while  i in range(1, (N + 1))
+io26=>inputoutput: output:  pro
+e24=>end: end function return
+
+st3->io5
+io5->op8
+op8->cond11
+cond11->io26
+io26->e24
+

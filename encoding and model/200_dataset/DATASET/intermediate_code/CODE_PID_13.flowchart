@@ -1,0 +1,11 @@
+st3=>start: start fun13
+io5=>inputoutput: input: radius
+op8=>operation: perimeter = ((2 * 3.142) * radius)
+io13=>inputoutput: output:  perimeter
+e11=>end: end function return
+
+st3->io5
+io5->op8
+op8->io13
+io13->e11
+

@@ -1,0 +1,22 @@
+st3=>start: start fun57
+io5=>inputoutput: input: basic
+cond9=>condition: if (basic < 20000)
+op13=>operation: HRA = (0.16 * basic)
+op15=>operation: DA = (0.2 * basic)
+op24=>operation: total = ((basic + HRA) + DA)
+io29=>inputoutput: output:  total
+e27=>end: end function return
+op19=>operation: HRA = (0.24 * basic)
+op21=>operation: DA = (0.3 * basic)
+
+st3->io5
+io5->cond9
+cond9(yes)->op13
+op13->op15
+op15->op24
+op24->io29
+io29->e27
+cond9(no)->op19
+op19->op21
+op21->op24
+

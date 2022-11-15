@@ -1,0 +1,21 @@
+st3=>start: start fun189
+io5=>inputoutput: input: string
+op8=>operation: length = len(string)
+op10=>operation: new = ''
+cond13=>operation: new = (new + string[i]) while  i in range((length - 1), (- 1), (- 1))
+cond26=>condition: if (string == new)
+io33=>inputoutput: output:  'Palindrome string'
+e31=>end: end function return
+io41=>inputoutput: output:  'Not a Palindrome string'
+e39=>end: end function return
+
+st3->io5
+io5->op8
+op8->op10
+op10->cond13
+cond13->cond26
+cond26(yes)->io33
+io33->e31
+cond26(no)->io41
+io41->e39
+

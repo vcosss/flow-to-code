@@ -1,0 +1,11 @@
+st3=>start: start fun28
+io5=>inputoutput: input: seconds
+op8=>operation: hours = (seconds / 3600)
+io13=>inputoutput: output:  hours
+e11=>end: end function return
+
+st3->io5
+io5->op8
+op8->io13
+io13->e11
+

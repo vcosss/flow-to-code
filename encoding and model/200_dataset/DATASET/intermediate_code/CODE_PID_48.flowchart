@@ -1,0 +1,15 @@
+st3=>start: start fun48
+io5=>inputoutput: input: num
+cond9=>condition: if (((num % 5) == 0) and ((num % 11) == 0))
+io16=>inputoutput: output:  'Divisible'
+e14=>end: end function return
+io24=>inputoutput: output:  'Not Divisible'
+e22=>end: end function return
+
+st3->io5
+io5->cond9
+cond9(yes)->io16
+io16->e14
+cond9(no)->io24
+io24->e22
+

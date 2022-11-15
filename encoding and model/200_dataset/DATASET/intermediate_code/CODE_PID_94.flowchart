@@ -1,0 +1,20 @@
+st3=>start: start fun94
+io5=>inputoutput: input: a, b
+op8=>operation: sum = 0
+op10=>operation: i = a
+cond13=>condition: while (i <= b)
+cond32=>operation: sum = (sum + i) if  ((i % 2) == 0)
+op42=>operation: i = (i + 1)
+io49=>inputoutput: output:  sum
+e47=>end: end function return
+
+st3->io5
+io5->op8
+op8->op10
+op10->cond13
+cond13(yes)->cond32
+cond32->op42
+op42(left)->cond13
+cond13(no)->io49
+io49->e47
+

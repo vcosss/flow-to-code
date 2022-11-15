@@ -1,0 +1,13 @@
+st3=>start: start fun184
+io5=>inputoutput: input: a, d, N
+op8=>operation: apterm = (a + ((N - 1) * d))
+op10=>operation: term = (1 / apterm)
+io15=>inputoutput: output:  term
+e13=>end: end function return
+
+st3->io5
+io5->op8
+op8->op10
+op10->io15
+io15->e13
+

@@ -1,0 +1,20 @@
+st3=>start: start fun174
+io5=>inputoutput: input: string, char
+op8=>operation: length = len(string)
+op10=>operation: count = 0
+cond13=>condition: for i in range(length)
+op31=>operation: ch = string[i]
+cond34=>operation: count = (count + 1) if  (ch == char)
+io49=>inputoutput: output:  count
+e47=>end: end function return
+
+st3->io5
+io5->op8
+op8->op10
+op10->cond13
+cond13(yes)->op31
+op31->cond34
+cond34->cond13
+cond13(no)->io49
+io49->e47
+

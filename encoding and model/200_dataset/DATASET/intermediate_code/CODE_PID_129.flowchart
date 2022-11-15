@@ -1,0 +1,20 @@
+st3=>start: start fun129
+io5=>inputoutput: input: N
+op8=>operation: term = 1
+op10=>operation: sum = 0
+cond13=>condition: for i in range(1, N)
+op22=>operation: sum = (sum + term)
+op24=>operation: term = ((term * 10) + 1)
+io31=>inputoutput: output:  sum
+e29=>end: end function return
+
+st3->io5
+io5->op8
+op8->op10
+op10->cond13
+cond13(yes)->op22
+op22->op24
+op24(left)->cond13
+cond13(no)->io31
+io31->e29
+

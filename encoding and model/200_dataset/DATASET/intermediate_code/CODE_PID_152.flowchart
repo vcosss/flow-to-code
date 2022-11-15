@@ -1,0 +1,25 @@
+st3=>start: start fun152
+io5=>inputoutput: input: string
+op8=>operation: length = len(string)
+op10=>operation: new = ''
+cond13=>condition: for i in range(length)
+op32=>operation: ch = ord(string[i])
+cond35=>condition: if ((ch >= 65) and (ch <= 90))
+op39=>operation: new = (new + chr((ch + 32)))
+op43=>operation: new = (new + chr(ch))
+io51=>inputoutput: output:  new
+e49=>end: end function return
+
+st3->io5
+io5->op8
+op8->op10
+op10->cond13
+cond13(yes)->op32
+op32->cond35
+cond35(yes)->op39
+op39->cond13
+cond35(no)->op43
+op43->cond13
+cond13(no)->io51
+io51->e49
+

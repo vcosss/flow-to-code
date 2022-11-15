@@ -1,0 +1,29 @@
+st3=>start: start fun61
+io5=>inputoutput: input: weight, height
+op8=>operation: bmi = (weight / (height ** 2))
+cond11=>condition: if (bmi >= 30)
+io18=>inputoutput: output:  'Obesity'
+e16=>end: end function return
+cond24=>condition: if (bmi >= 24.9)
+io31=>inputoutput: output:  'Overweight'
+e29=>end: end function return
+cond37=>condition: if (bmi >= 18.5)
+io44=>inputoutput: output:  'Healthy'
+e42=>end: end function return
+io52=>inputoutput: output:  'Underweight'
+e50=>end: end function return
+
+st3->io5
+io5->op8
+op8->cond11
+cond11(yes)->io18
+io18->e16
+cond11(no)->cond24
+cond24(yes)->io31
+io31->e29
+cond24(no)->cond37
+cond37(yes)->io44
+io44->e42
+cond37(no)->io52
+io52->e50
+

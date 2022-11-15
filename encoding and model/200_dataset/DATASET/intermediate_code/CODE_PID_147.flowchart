@@ -1,0 +1,26 @@
+st3=>start: start fun147
+io5=>inputoutput: input: num, k
+op8=>operation: count = 0
+cond11=>condition: while (num != 0)
+op31=>operation: digit = (num % 10)
+cond34=>operation: count = (count + 1) if  (digit == k)
+op44=>operation: num = (num // 10)
+cond49=>condition: if (count > 0)
+io56=>inputoutput: output:  'Present'
+e54=>end: end function return
+io64=>inputoutput: output:  'Not Present'
+e62=>end: end function return
+
+st3->io5
+io5->op8
+op8->cond11
+cond11(yes)->op31
+op31->cond34
+cond34->op44
+op44(left)->cond11
+cond11(no)->cond49
+cond49(yes)->io56
+io56->e54
+cond49(no)->io64
+io64->e62
+

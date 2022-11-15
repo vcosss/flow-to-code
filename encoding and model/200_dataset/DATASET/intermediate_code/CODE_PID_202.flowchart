@@ -1,0 +1,38 @@
+st3=>start: start fun202
+io5=>inputoutput: input: N
+op8=>operation: a = 0
+op10=>operation: b = 1
+cond13=>condition: if (N == 1)
+io20=>inputoutput: output:  a
+e18=>end: end function return
+cond26=>condition: if (N == 2)
+io33=>inputoutput: output:  b
+e31=>end: end function return
+op38=>operation: i = 3
+cond41=>condition: while (i <= N)
+op54=>operation: c = (a + b)
+op56=>operation: a = b
+op58=>operation: b = c
+op60=>operation: i = (i + 1)
+io67=>inputoutput: output:  c
+e65=>end: end function return
+
+st3->io5
+io5->op8
+op8->op10
+op10->cond13
+cond13(yes)->io20
+io20->e18
+cond13(no)->cond26
+cond26(yes)->io33
+io33->e31
+cond26(no)->op38
+op38->cond41
+cond41(yes)->op54
+op54->op56
+op56->op58
+op58->op60
+op60(left)->cond41
+cond41(no)->io67
+io67->e65
+

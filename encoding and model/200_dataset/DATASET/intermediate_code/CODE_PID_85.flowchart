@@ -1,0 +1,24 @@
+st3=>start: start fun85
+io5=>inputoutput: input: num
+op8=>operation: t = 1
+op10=>operation: nums = num
+cond13=>condition: while (num != 0)
+op22=>operation: t = (t * 10)
+op24=>operation: num = (num // 10)
+op28=>operation: t = (t // 10)
+op30=>operation: mdigit = (nums // t)
+io35=>inputoutput: output:  mdigit
+e33=>end: end function return
+
+st3->io5
+io5->op8
+op8->op10
+op10->cond13
+cond13(yes)->op22
+op22->op24
+op24(left)->cond13
+cond13(no)->op28
+op28->op30
+op30->io35
+io35->e33
+

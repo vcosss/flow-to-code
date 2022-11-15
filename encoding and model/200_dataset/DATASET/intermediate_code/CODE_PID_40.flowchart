@@ -1,0 +1,15 @@
+st3=>start: start fun40
+io5=>inputoutput: input: age
+cond9=>condition: if (age >= 18)
+io16=>inputoutput: output:  'Can vote'
+e14=>end: end function return
+io24=>inputoutput: output:  'Cannot vote'
+e22=>end: end function return
+
+st3->io5
+io5->cond9
+cond9(yes)->io16
+io16->e14
+cond9(no)->io24
+io24->e22
+

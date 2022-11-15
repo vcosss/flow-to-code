@@ -1,0 +1,24 @@
+st3=>start: start fun102
+io5=>inputoutput: input: a, d, N
+op8=>operation: sum = 0
+op10=>operation: term = a
+op12=>operation: i = 1
+cond15=>condition: while (i <= N)
+op26=>operation: sum = (sum + term)
+op28=>operation: term = (term + d)
+op30=>operation: i = (i + 1)
+io37=>inputoutput: output:  sum
+e35=>end: end function return
+
+st3->io5
+io5->op8
+op8->op10
+op10->op12
+op12->cond15
+cond15(yes)->op26
+op26->op28
+op28->op30
+op30(left)->cond15
+cond15(no)->io37
+io37->e35
+

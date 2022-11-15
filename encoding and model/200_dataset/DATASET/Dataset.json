@@ -1,0 +1,1827 @@
+{
+    "PID": 1,
+    "PROBLEM": "Given x, compute y = 16 + x - 20",
+    "CODE": "CODE_PID_1.py",
+    "FLOWCHART": "FLOWCHART_PID_1.png",
+    "PROBLEM_TYPE": "Sequential",
+    "INPUT_TYPE": "Number",
+    "OUTPUT_TYPE": "Number"
+}
+{
+    "PID": 2,
+    "PROBLEM": "Given a, b, compute c = a + b * 100",
+    "CODE": "CODE_PID_2.py",
+    "FLOWCHART": "FLOWCHART_PID_2.png",
+    "PROBLEM_TYPE": "Sequential",
+    "INPUT_TYPE": "Number",
+    "OUTPUT_TYPE": "Number"
+}
+{
+    "PID": 3,
+    "PROBLEM": "Given x, compute z = x//2 + x % 2",
+    "CODE": "CODE_PID_3.py",
+    "FLOWCHART": "FLOWCHART_PID_3.png",
+    "PROBLEM_TYPE": "Sequential",
+    "INPUT_TYPE": "Number",
+    "OUTPUT_TYPE": "Number"
+}
+{
+    "PID": 4,
+    "PROBLEM": "Given p,q, compute s = (p - q) + (p + q) + (q + 1) * (p + 1)",
+    "CODE": "CODE_PID_4.py",
+    "FLOWCHART": "FLOWCHART_PID_4.png",
+    "PROBLEM_TYPE": "Sequential",
+    "INPUT_TYPE": "Number",
+    "OUTPUT_TYPE": "Number"
+}
+{
+    "PID": 5,
+    "PROBLEM": "Given temperature in fahrenheit, convert to celcius",
+    "CODE": "CODE_PID_5.py",
+    "FLOWCHART": "FLOWCHART_PID_5.png",
+    "PROBLEM_TYPE": "Sequential",
+    "INPUT_TYPE": "Number",
+    "OUTPUT_TYPE": "Number"
+}
+{
+    "PID": 6,
+    "PROBLEM": "Given temperature in celcius, convert to fahrenheit",
+    "CODE": "CODE_PID_6.py",
+    "FLOWCHART": "FLOWCHART_PID_6.png",
+    "PROBLEM_TYPE": "Sequential",
+    "INPUT_TYPE": "Number",
+    "OUTPUT_TYPE": "Number"
+}
+{
+    "PID": 7,
+    "PROBLEM": "Given tempertature in celcius, convert to kelvin",
+    "CODE": "CODE_PID_7.py",
+    "FLOWCHART": "FLOWCHART_PID_7.png",
+    "PROBLEM_TYPE": "Sequential",
+    "INPUT_TYPE": "Number",
+    "OUTPUT_TYPE": "Number"
+}
+{
+    "PID": 8,
+    "PROBLEM": "Given temperature in kelvin, convert to celcius",
+    "CODE": "CODE_PID_8.py",
+    "FLOWCHART": "FLOWCHART_PID_8.png",
+    "PROBLEM_TYPE": "Sequential",
+    "INPUT_TYPE": "Number",
+    "OUTPUT_TYPE": "Number"
+}
+{
+    "PID": 9,
+    "PROBLEM": "Given side, find area of square",
+    "CODE": "CODE_PID_9.py",
+    "FLOWCHART": "FLOWCHART_PID_9.png",
+    "PROBLEM_TYPE": "Sequential",
+    "INPUT_TYPE": "Number",
+    "OUTPUT_TYPE": "Number"
+}
+{
+    "PID": 10,
+    "PROBLEM": "Given radius, find area of circle",
+    "CODE": "CODE_PID_10.py",
+    "FLOWCHART": "FLOWCHART_PID_10.png",
+    "PROBLEM_TYPE": "Sequential",
+    "INPUT_TYPE": "Number",
+    "OUTPUT_TYPE": "Number"
+}
+{
+    "PID": 11,
+    "PROBLEM": "Given length, breadth, find area of rectangle",
+    "CODE": "CODE_PID_11.py",
+    "FLOWCHART": "FLOWCHART_PID_11.png",
+    "PROBLEM_TYPE": "Sequential",
+    "INPUT_TYPE": "Number",
+    "OUTPUT_TYPE": "Number"
+}
+{
+    "PID": 12,
+    "PROBLEM": "Find perimeter of sqaure given its side",
+    "CODE": "CODE_PID_12.py",
+    "FLOWCHART": "FLOWCHART_PID_12.png",
+    "PROBLEM_TYPE": "Sequential",
+    "INPUT_TYPE": "Number",
+    "OUTPUT_TYPE": "Number"
+}
+{
+    "PID": 13,
+    "PROBLEM": "Find circumference of circle given its radius",
+    "CODE": "CODE_PID_13.py",
+    "FLOWCHART": "FLOWCHART_PID_13.png",
+    "PROBLEM_TYPE": "Sequential",
+    "INPUT_TYPE": "Number",
+    "OUTPUT_TYPE": "Number"
+}
+{
+    "PID": 14,
+    "PROBLEM": "Find perimeter of rectangle given its length and breadth",
+    "CODE": "CODE_PID_14.py",
+    "FLOWCHART": "FLOWCHART_PID_14.png",
+    "PROBLEM_TYPE": "Sequential",
+    "INPUT_TYPE": "Number",
+    "OUTPUT_TYPE": "Number"
+}
+{
+    "PID": 15,
+    "PROBLEM": "Find volume of sphere",
+    "CODE": "CODE_PID_15.py",
+    "FLOWCHART": "FLOWCHART_PID_15.png",
+    "PROBLEM_TYPE": "Sequential",
+    "INPUT_TYPE": "Number",
+    "OUTPUT_TYPE": "Number"
+}
+{
+    "PID": 16,
+    "PROBLEM": "Find volume of cylinder",
+    "CODE": "CODE_PID_16.py",
+    "FLOWCHART": "FLOWCHART_PID_16.png",
+    "PROBLEM_TYPE": "Sequential",
+    "INPUT_TYPE": "Number",
+    "OUTPUT_TYPE": "Number"
+}
+{
+    "PID": 17,
+    "PROBLEM": "Find volume of cube",
+    "CODE": "CODE_PID_17.py",
+    "FLOWCHART": "FLOWCHART_PID_17.png",
+    "PROBLEM_TYPE": "Sequential",
+    "INPUT_TYPE": "Number",
+    "OUTPUT_TYPE": "Number"
+}
+{
+    "PID": 18,
+    "PROBLEM": "Find volume of cuboid",
+    "CODE": "CODE_PID_18.py",
+    "FLOWCHART": "FLOWCHART_PID_18.png",
+    "PROBLEM_TYPE": "Sequential",
+    "INPUT_TYPE": "Number",
+    "OUTPUT_TYPE": "Number"
+}
+{
+    "PID": 19,
+    "PROBLEM": "Surface area of cone",
+    "CODE": "CODE_PID_19.py",
+    "FLOWCHART": "FLOWCHART_PID_19.png",
+    "PROBLEM_TYPE": "Sequential",
+    "INPUT_TYPE": "Number",
+    "OUTPUT_TYPE": "Number"
+}
+{
+    "PID": 20,
+    "PROBLEM": "Suraface area of cylinder",
+    "CODE": "CODE_PID_20.py",
+    "FLOWCHART": "FLOWCHART_PID_20.png",
+    "PROBLEM_TYPE": "Sequential",
+    "INPUT_TYPE": "Number",
+    "OUTPUT_TYPE": "Number"
+}
+{
+    "PID": 21,
+    "PROBLEM": "Add two numbers (a + b)",
+    "CODE": "CODE_PID_21.py",
+    "FLOWCHART": "FLOWCHART_PID_21.png",
+    "PROBLEM_TYPE": "Sequential",
+    "INPUT_TYPE": "Number",
+    "OUTPUT_TYPE": "Number"
+}
+{
+    "PID": 22,
+    "PROBLEM": "Subtract two numbers (a - b)",
+    "CODE": "CODE_PID_22.py",
+    "FLOWCHART": "FLOWCHART_PID_22.png",
+    "PROBLEM_TYPE": "Sequential",
+    "INPUT_TYPE": "Number",
+    "OUTPUT_TYPE": "Number"
+}
+{
+    "PID": 23,
+    "PROBLEM": "Multiply two numbers",
+    "CODE": "CODE_PID_23.py",
+    "FLOWCHART": "FLOWCHART_PID_23.png",
+    "PROBLEM_TYPE": "Sequential",
+    "INPUT_TYPE": "Number",
+    "OUTPUT_TYPE": "Number"
+}
+{
+    "PID": 24,
+    "PROBLEM": "Divide two numbers",
+    "CODE": "CODE_PID_24.py",
+    "FLOWCHART": "FLOWCHART_PID_24.png",
+    "PROBLEM_TYPE": "Sequential",
+    "INPUT_TYPE": "Number",
+    "OUTPUT_TYPE": "Number"
+}
+{
+    "PID": 25,
+    "PROBLEM": "Given length in meters, convert to centimeters",
+    "CODE": "CODE_PID_25.py",
+    "FLOWCHART": "FLOWCHART_PID_25.png",
+    "PROBLEM_TYPE": "Sequential",
+    "INPUT_TYPE": "Number",
+    "OUTPUT_TYPE": "Number"
+}
+{
+    "PID": 26,
+    "PROBLEM": "Given length in centimeters, convert to meters",
+    "CODE": "CODE_PID_26.py",
+    "FLOWCHART": "FLOWCHART_PID_26.png",
+    "PROBLEM_TYPE": "Sequential",
+    "INPUT_TYPE": "Number",
+    "OUTPUT_TYPE": "Number"
+}
+{
+    "PID": 27,
+    "PROBLEM": "Given time in hours, convert to seconds",
+    "CODE": "CODE_PID_27.py",
+    "FLOWCHART": "FLOWCHART_PID_27.png",
+    "PROBLEM_TYPE": "Sequential",
+    "INPUT_TYPE": "Number",
+    "OUTPUT_TYPE": "Number"
+}
+{
+    "PID": 28,
+    "PROBLEM": "Given time in seconds, convert to hours",
+    "CODE": "CODE_PID_28.py",
+    "FLOWCHART": "FLOWCHART_PID_28.png",
+    "PROBLEM_TYPE": "Sequential",
+    "INPUT_TYPE": "Number",
+    "OUTPUT_TYPE": "Number"
+}
+{
+    "PID": 29,
+    "PROBLEM": "Given speed in km/hr, convert to m/s",
+    "CODE": "CODE_PID_29.py",
+    "FLOWCHART": "FLOWCHART_PID_29.png",
+    "PROBLEM_TYPE": "Sequential",
+    "INPUT_TYPE": "Number",
+    "OUTPUT_TYPE": "Number"
+}
+{
+    "PID": 30,
+    "PROBLEM": "Given speed in m/s, convert to km/hr",
+    "CODE": "CODE_PID_30.py",
+    "FLOWCHART": "FLOWCHART_PID_30.png",
+    "PROBLEM_TYPE": "Sequential",
+    "INPUT_TYPE": "Number",
+    "OUTPUT_TYPE": "Number"
+}
+{
+    "PID": 31,
+    "PROBLEM": "Compute density, given mass and volume",
+    "CODE": "CODE_PID_31.py",
+    "FLOWCHART": "FLOWCHART_PID_31.png",
+    "PROBLEM_TYPE": "Sequential",
+    "INPUT_TYPE": "Number",
+    "OUTPUT_TYPE": "Number"
+}
+{
+    "PID": 32,
+    "PROBLEM": "Compute velocity, given distance and time",
+    "CODE": "CODE_PID_32.py",
+    "FLOWCHART": "FLOWCHART_PID_32.png",
+    "PROBLEM_TYPE": "Sequential",
+    "INPUT_TYPE": "Number",
+    "OUTPUT_TYPE": "Number"
+}
+{
+    "PID": 33,
+    "PROBLEM": "Compute kinetic energy, given mass and velocity",
+    "CODE": "CODE_PID_33.py",
+    "FLOWCHART": "FLOWCHART_PID_33.png",
+    "PROBLEM_TYPE": "Sequential",
+    "INPUT_TYPE": "Number",
+    "OUTPUT_TYPE": "Number"
+}
+{
+    "PID": 34,
+    "PROBLEM": "Convert radian to degree",
+    "CODE": "CODE_PID_34.py",
+    "FLOWCHART": "FLOWCHART_PID_34.png",
+    "PROBLEM_TYPE": "Sequential",
+    "INPUT_TYPE": "Number",
+    "OUTPUT_TYPE": "Number"
+}
+{
+    "PID": 35,
+    "PROBLEM": "Convert degree to radian",
+    "CODE": "CODE_PID_35.py",
+    "FLOWCHART": "FLOWCHART_PID_35.png",
+    "PROBLEM_TYPE": "Sequential",
+    "INPUT_TYPE": "Number",
+    "OUTPUT_TYPE": "Number"
+}
+{
+    "PID": 36,
+    "PROBLEM": "Find frequency given time period",
+    "CODE": "CODE_PID_36.py",
+    "FLOWCHART": "FLOWCHART_PID_36.png",
+    "PROBLEM_TYPE": "Sequential",
+    "INPUT_TYPE": "Number",
+    "OUTPUT_TYPE": "Number"
+}
+{
+    "PID": 37,
+    "PROBLEM": "Return the first character of the string",
+    "CODE": "CODE_PID_37.py",
+    "FLOWCHART": "FLOWCHART_PID_37.png",
+    "PROBLEM_TYPE": "Sequential",
+    "INPUT_TYPE": "String",
+    "OUTPUT_TYPE": "String"
+}
+{
+    "PID": 38,
+    "PROBLEM": "Return the last character of the string ",
+    "CODE": "CODE_PID_38.py",
+    "FLOWCHART": "FLOWCHART_PID_38.png",
+    "PROBLEM_TYPE": "Sequential",
+    "INPUT_TYPE": "String",
+    "OUTPUT_TYPE": "String"
+}
+{
+    "PID": 39,
+    "PROBLEM": "Return the ith character of the string",
+    "CODE": "CODE_PID_39.py",
+    "FLOWCHART": "FLOWCHART_PID_39.png",
+    "PROBLEM_TYPE": "Sequential",
+    "INPUT_TYPE": "String",
+    "OUTPUT_TYPE": "String"
+}
+{
+    "PID": 40,
+    "PROBLEM": "Given age, check if a person is eligible for vote or not",
+    "CODE": "CODE_PID_40.py",
+    "FLOWCHART": "FLOWCHART_PID_40.png",
+    "PROBLEM_TYPE": "Conditional",
+    "INPUT_TYPE": "Number",
+    "OUTPUT_TYPE": "Number"
+}
+{
+    "PID": 41,
+    "PROBLEM": "Find maximum between two numbers",
+    "CODE": "CODE_PID_41.py",
+    "FLOWCHART": "FLOWCHART_PID_41.png",
+    "PROBLEM_TYPE": "Conditional",
+    "INPUT_TYPE": "Number",
+    "OUTPUT_TYPE": "Number"
+}
+{
+    "PID": 42,
+    "PROBLEM": "Find maximum between three numbers",
+    "CODE": "CODE_PID_42.py",
+    "FLOWCHART": "FLOWCHART_PID_42.png",
+    "PROBLEM_TYPE": "Conditional",
+    "INPUT_TYPE": "Number",
+    "OUTPUT_TYPE": "Number"
+}
+{
+    "PID": 43,
+    "PROBLEM": "Find minimum between two  numbers",
+    "CODE": "CODE_PID_43.py",
+    "FLOWCHART": "FLOWCHART_PID_43.png",
+    "PROBLEM_TYPE": "Conditional",
+    "INPUT_TYPE": "Number",
+    "OUTPUT_TYPE": "Number"
+}
+{
+    "PID": 44,
+    "PROBLEM": "Find minimum between three numbers",
+    "CODE": "CODE_PID_44.py",
+    "FLOWCHART": "FLOWCHART_PID_44.png",
+    "PROBLEM_TYPE": "Conditional",
+    "INPUT_TYPE": "Number",
+    "OUTPUT_TYPE": "Number"
+}
+{
+    "PID": 45,
+    "PROBLEM": "Check whether a number is greater or less than 0 ",
+    "CODE": "CODE_PID_45.py",
+    "FLOWCHART": "FLOWCHART_PID_45.png",
+    "PROBLEM_TYPE": "Conditional",
+    "INPUT_TYPE": "Number",
+    "OUTPUT_TYPE": "String"
+}
+{
+    "PID": 46,
+    "PROBLEM": "Check whether a number is positive number or negative number or zero",
+    "CODE": "CODE_PID_46.py",
+    "FLOWCHART": "FLOWCHART_PID_46.png",
+    "PROBLEM_TYPE": "Conditional",
+    "INPUT_TYPE": "Number",
+    "OUTPUT_TYPE": "String"
+}
+{
+    "PID": 47,
+    "PROBLEM": "Check whether a number is odd or even",
+    "CODE": "CODE_PID_47.py",
+    "FLOWCHART": "FLOWCHART_PID_47.png",
+    "PROBLEM_TYPE": "Conditional",
+    "INPUT_TYPE": "Number",
+    "OUTPUT_TYPE": "String"
+}
+{
+    "PID": 48,
+    "PROBLEM": "Check whether a number is divisible by 5 and 11 or not",
+    "CODE": "CODE_PID_48.py",
+    "FLOWCHART": "FLOWCHART_PID_48.png",
+    "PROBLEM_TYPE": "Conditional",
+    "INPUT_TYPE": "Number",
+    "OUTPUT_TYPE": "String"
+}
+{
+    "PID": 49,
+    "PROBLEM": "Check whether a number is a factor of another number",
+    "CODE": "CODE_PID_49.py",
+    "FLOWCHART": "FLOWCHART_PID_49.png",
+    "PROBLEM_TYPE": "Conditional",
+    "INPUT_TYPE": "Number",
+    "OUTPUT_TYPE": "String"
+}
+{
+    "PID": 50,
+    "PROBLEM": "Check whether a year is leap year or not",
+    "CODE": "CODE_PID_50.py",
+    "FLOWCHART": "FLOWCHART_PID_50.png",
+    "PROBLEM_TYPE": "Conditional",
+    "INPUT_TYPE": "Number",
+    "OUTPUT_TYPE": "String"
+}
+{
+    "PID": 51,
+    "PROBLEM": "Given cost price and selling price, find if it is loss or profit",
+    "CODE": "CODE_PID_51.py",
+    "FLOWCHART": "FLOWCHART_PID_51.png",
+    "PROBLEM_TYPE": "Conditional",
+    "INPUT_TYPE": "Number",
+    "OUTPUT_TYPE": "String"
+}
+{
+    "PID": 52,
+    "PROBLEM": "Input angles of triangle, check whether it is valid triangle or not",
+    "CODE": "CODE_PID_52.py",
+    "FLOWCHART": "FLOWCHART_PID_52.png",
+    "PROBLEM_TYPE": "Conditional",
+    "INPUT_TYPE": "Number",
+    "OUTPUT_TYPE": "String"
+}
+{
+    "PID": 53,
+    "PROBLEM": "Check if a triangle is valid or not, given its length of sides",
+    "CODE": "CODE_PID_53.py",
+    "FLOWCHART": "FLOWCHART_PID_53.png",
+    "PROBLEM_TYPE": "Conditional",
+    "INPUT_TYPE": "Number",
+    "OUTPUT_TYPE": "String"
+}
+{
+    "PID": 54,
+    "PROBLEM": "Check if triangle is equilateral, isosceles or scalene, given length of its sides",
+    "CODE": "CODE_PID_54.py",
+    "FLOWCHART": "FLOWCHART_PID_54.png",
+    "PROBLEM_TYPE": "Conditional",
+    "INPUT_TYPE": "Number",
+    "OUTPUT_TYPE": "String"
+}
+{
+    "PID": 55,
+    "PROBLEM": "Calculate SI or CI based on users choice",
+    "CODE": "CODE_PID_55.py",
+    "FLOWCHART": "FLOWCHART_PID_55.png",
+    "PROBLEM_TYPE": "Conditional",
+    "INPUT_TYPE": "Number",
+    "OUTPUT_TYPE": "Number"
+}
+{
+    "PID": 56,
+    "PROBLEM": "Calculate profit or loss",
+    "CODE": "CODE_PID_56.py",
+    "FLOWCHART": "FLOWCHART_PID_56.png",
+    "PROBLEM_TYPE": "Conditional",
+    "INPUT_TYPE": "Number",
+    "OUTPUT_TYPE": "Number"
+}
+{
+    "PID": 57,
+    "PROBLEM": "Find gross salary of employee, by calculating DA, HRA",
+    "CODE": "CODE_PID_57.py",
+    "FLOWCHART": "FLOWCHART_PID_57.png",
+    "PROBLEM_TYPE": "Conditional",
+    "INPUT_TYPE": "Number",
+    "OUTPUT_TYPE": "Number"
+}
+{
+    "PID": 58,
+    "PROBLEM": "Check if two entered numbers are equal or not",
+    "CODE": "CODE_PID_58.py",
+    "FLOWCHART": "FLOWCHART_PID_58.png",
+    "PROBLEM_TYPE": "Conditional",
+    "INPUT_TYPE": "Number",
+    "OUTPUT_TYPE": "String"
+}
+{
+    "PID": 59,
+    "PROBLEM": "Find in which quadrant the point(x, y) lie",
+    "CODE": "CODE_PID_59.py",
+    "FLOWCHART": "FLOWCHART_PID_59.png",
+    "PROBLEM_TYPE": "Conditional",
+    "INPUT_TYPE": "Number",
+    "OUTPUT_TYPE": "String"
+}
+{
+    "PID": 60,
+    "PROBLEM": "Categorize person using height in cm",
+    "CODE": "CODE_PID_60.py",
+    "FLOWCHART": "FLOWCHART_PID_60.png",
+    "PROBLEM_TYPE": "Conditional",
+    "INPUT_TYPE": "Number",
+    "OUTPUT_TYPE": "String"
+}
+{
+    "PID": 61,
+    "PROBLEM": "Print persons health based on BMI index",
+    "CODE": "CODE_PID_61.py",
+    "FLOWCHART": "FLOWCHART_PID_61.png",
+    "PROBLEM_TYPE": "Conditional",
+    "INPUT_TYPE": "Number",
+    "OUTPUT_TYPE": "String"
+}
+{
+    "PID": 62,
+    "PROBLEM": "Dtermine the type of roots existence of Quadratic equation",
+    "CODE": "CODE_PID_62.py",
+    "FLOWCHART": "FLOWCHART_PID_62.png",
+    "PROBLEM_TYPE": "Conditional",
+    "INPUT_TYPE": "Number",
+    "OUTPUT_TYPE": "String"
+}
+{
+    "PID": 63,
+    "PROBLEM": "Check whether given character is upper case or lower case",
+    "CODE": "CODE_PID_63.py",
+    "FLOWCHART": "FLOWCHART_PID_63.png",
+    "PROBLEM_TYPE": "Conditional",
+    "INPUT_TYPE": "String",
+    "OUTPUT_TYPE": "String"
+}
+{
+    "PID": 64,
+    "PROBLEM": "Check whether given character is digit or not",
+    "CODE": "CODE_PID_64.py",
+    "FLOWCHART": "FLOWCHART_PID_64.png",
+    "PROBLEM_TYPE": "Conditional",
+    "INPUT_TYPE": "String",
+    "OUTPUT_TYPE": "String"
+}
+{
+    "PID": 65,
+    "PROBLEM": "Check whether given character is vowel or consonant",
+    "CODE": "CODE_PID_65.py",
+    "FLOWCHART": "FLOWCHART_PID_65.png",
+    "PROBLEM_TYPE": "Conditional",
+    "INPUT_TYPE": "String",
+    "OUTPUT_TYPE": "String"
+}
+{
+    "PID": 66,
+    "PROBLEM": "Check whether given character is vowel or consonant (Using List)",
+    "CODE": "CODE_PID_66.py",
+    "FLOWCHART": "FLOWCHART_PID_66.png",
+    "PROBLEM_TYPE": "Conditional",
+    "INPUT_TYPE": "String",
+    "OUTPUT_TYPE": "String"
+}
+{
+    "PID": 67,
+    "PROBLEM": "Check whether given character is alphabet or not",
+    "CODE": "CODE_PID_67.py",
+    "FLOWCHART": "FLOWCHART_PID_67.png",
+    "PROBLEM_TYPE": "Conditional",
+    "INPUT_TYPE": "String",
+    "OUTPUT_TYPE": "String"
+}
+{
+    "PID": 68,
+    "PROBLEM": "Check whether given character is special character or not ",
+    "CODE": "CODE_PID_68.py",
+    "FLOWCHART": "FLOWCHART_PID_68.png",
+    "PROBLEM_TYPE": "Conditional",
+    "INPUT_TYPE": "String",
+    "OUTPUT_TYPE": "String"
+}
+{
+    "PID": 69,
+    "PROBLEM": "Check whether two strings are equal or not",
+    "CODE": "CODE_PID_69.py",
+    "FLOWCHART": "FLOWCHART_PID_69.png",
+    "PROBLEM_TYPE": "Conditional",
+    "INPUT_TYPE": "String",
+    "OUTPUT_TYPE": "String"
+}
+{
+    "PID": 70,
+    "PROBLEM": "Print sum of digits of given number",
+    "CODE": "CODE_PID_70.py",
+    "FLOWCHART": "FLOWCHART_PID_70.png",
+    "PROBLEM_TYPE": "Iterative",
+    "INPUT_TYPE": "Number",
+    "OUTPUT_TYPE": "Number"
+}
+{
+    "PID": 71,
+    "PROBLEM": "Print product of digits of given number",
+    "CODE": "CODE_PID_71.py",
+    "FLOWCHART": "FLOWCHART_PID_71.png",
+    "PROBLEM_TYPE": "Iterative",
+    "INPUT_TYPE": "Number",
+    "OUTPUT_TYPE": "Number"
+}
+{
+    "PID": 72,
+    "PROBLEM": "Sum of first N natural numbers (FOR LOOP)",
+    "CODE": "CODE_PID_72.py",
+    "FLOWCHART": "FLOWCHART_PID_72.png",
+    "PROBLEM_TYPE": "Iterative",
+    "INPUT_TYPE": "Number",
+    "OUTPUT_TYPE": "Number"
+}
+{
+    "PID": 73,
+    "PROBLEM": "Sum of first N natural numbers (WHILE LOOP)",
+    "CODE": "CODE_PID_73.py",
+    "FLOWCHART": "FLOWCHART_PID_73.png",
+    "PROBLEM_TYPE": "Iterative",
+    "INPUT_TYPE": "Number",
+    "OUTPUT_TYPE": "Number"
+}
+{
+    "PID": 74,
+    "PROBLEM": "Product of first N natural numbers (FOR LOOP)",
+    "CODE": "CODE_PID_74.py",
+    "FLOWCHART": "FLOWCHART_PID_74.png",
+    "PROBLEM_TYPE": "Iterative",
+    "INPUT_TYPE": "Number",
+    "OUTPUT_TYPE": "Number"
+}
+{
+    "PID": 75,
+    "PROBLEM": "Product of first N natural numbers (WHILE LOOP)",
+    "CODE": "CODE_PID_75.py",
+    "FLOWCHART": "FLOWCHART_PID_75.png",
+    "PROBLEM_TYPE": "Iterative",
+    "INPUT_TYPE": "Number",
+    "OUTPUT_TYPE": "Number"
+}
+{
+    "PID": 76,
+    "PROBLEM": "Sum of all even numbers from 1 to N (FOR LOOP)",
+    "CODE": "CODE_PID_76.py",
+    "FLOWCHART": "FLOWCHART_PID_76.png",
+    "PROBLEM_TYPE": "Iterative",
+    "INPUT_TYPE": "Number",
+    "OUTPUT_TYPE": "Number"
+}
+{
+    "PID": 77,
+    "PROBLEM": "Sum of all even numbers from 1 to N (WHILE LOOP)",
+    "CODE": "CODE_PID_77.py",
+    "FLOWCHART": "FLOWCHART_PID_77.png",
+    "PROBLEM_TYPE": "Iterative",
+    "INPUT_TYPE": "Number",
+    "OUTPUT_TYPE": "Number"
+}
+{
+    "PID": 78,
+    "PROBLEM": "Sum of all even numbers from 1 to N (FOR LOOP + IF)",
+    "CODE": "CODE_PID_78.py",
+    "FLOWCHART": "FLOWCHART_PID_78.png",
+    "PROBLEM_TYPE": "Iterative, Conditional",
+    "INPUT_TYPE": "Number",
+    "OUTPUT_TYPE": "Number"
+}
+{
+    "PID": 79,
+    "PROBLEM": "Sum of all even numbers from 1 to N (WHILE LOOP + IF)",
+    "CODE": "CODE_PID_79.py",
+    "FLOWCHART": "FLOWCHART_PID_79.png",
+    "PROBLEM_TYPE": "Iterative, Conditional",
+    "INPUT_TYPE": "Number",
+    "OUTPUT_TYPE": "Number"
+}
+{
+    "PID": 80,
+    "PROBLEM": "Sum of all odd numbers from 1 to N (FOR LOOP)",
+    "CODE": "CODE_PID_80.py",
+    "FLOWCHART": "FLOWCHART_PID_80.png",
+    "PROBLEM_TYPE": "Iterative",
+    "INPUT_TYPE": "Number",
+    "OUTPUT_TYPE": "Number"
+}
+{
+    "PID": 81,
+    "PROBLEM": "Sum of all odd numbers from 1 to N (WHILE LOOP)",
+    "CODE": "CODE_PID_81.py",
+    "FLOWCHART": "FLOWCHART_PID_81.png",
+    "PROBLEM_TYPE": "Iterative",
+    "INPUT_TYPE": "Number",
+    "OUTPUT_TYPE": "Number"
+}
+{
+    "PID": 82,
+    "PROBLEM": "Sum of all odd numbers from 1 to N (FOR LOOP + IF)",
+    "CODE": "CODE_PID_82.py",
+    "FLOWCHART": "FLOWCHART_PID_82.png",
+    "PROBLEM_TYPE": "Iterative, Conditional",
+    "INPUT_TYPE": "Number",
+    "OUTPUT_TYPE": "Number"
+}
+{
+    "PID": 83,
+    "PROBLEM": "Sum of all odd numbers from 1 to N (WHILE LOOP + IF)",
+    "CODE": "CODE_PID_83.py",
+    "FLOWCHART": "FLOWCHART_PID_83.png",
+    "PROBLEM_TYPE": "Iterative, Conditional",
+    "INPUT_TYPE": "Number",
+    "OUTPUT_TYPE": "Number"
+}
+{
+    "PID": 84,
+    "PROBLEM": "Print reverse of given number",
+    "CODE": "CODE_PID_84.py",
+    "FLOWCHART": "FLOWCHART_PID_84.png",
+    "PROBLEM_TYPE": "Iterative",
+    "INPUT_TYPE": "Number",
+    "OUTPUT_TYPE": "Number"
+}
+{
+    "PID": 85,
+    "PROBLEM": "Print the most significant digit of a number",
+    "CODE": "CODE_PID_85.py",
+    "FLOWCHART": "FLOWCHART_PID_85.png",
+    "PROBLEM_TYPE": "Iterative",
+    "INPUT_TYPE": "Number",
+    "OUTPUT_TYPE": "Number"
+}
+{
+    "PID": 86,
+    "PROBLEM": "Count of odd digits in a number",
+    "CODE": "CODE_PID_86.py",
+    "FLOWCHART": "FLOWCHART_PID_86.png",
+    "PROBLEM_TYPE": "Iterative, Conditional",
+    "INPUT_TYPE": "Number",
+    "OUTPUT_TYPE": "Number"
+}
+{
+    "PID": 87,
+    "PROBLEM": "Count of even digits in a number",
+    "CODE": "CODE_PID_87.py",
+    "FLOWCHART": "FLOWCHART_PID_87.png",
+    "PROBLEM_TYPE": "Iterative, Conditional",
+    "INPUT_TYPE": "Number",
+    "OUTPUT_TYPE": "Number"
+}
+{
+    "PID": 88,
+    "PROBLEM": "Count of a particular digit in a number",
+    "CODE": "CODE_PID_88.py",
+    "FLOWCHART": "FLOWCHART_PID_88.png",
+    "PROBLEM_TYPE": "Iterative, Conditional",
+    "INPUT_TYPE": "Number",
+    "OUTPUT_TYPE": "Number"
+}
+{
+    "PID": 89,
+    "PROBLEM": "Convert decimal to binary number system",
+    "CODE": "CODE_PID_89.py",
+    "FLOWCHART": "FLOWCHART_PID_89.png",
+    "PROBLEM_TYPE": "Iterative",
+    "INPUT_TYPE": "Number",
+    "OUTPUT_TYPE": "Number"
+}
+{
+    "PID": 90,
+    "PROBLEM": "Convert decimal to octal number system",
+    "CODE": "CODE_PID_90.py",
+    "FLOWCHART": "FLOWCHART_PID_90.png",
+    "PROBLEM_TYPE": "Iterative",
+    "INPUT_TYPE": "Number",
+    "OUTPUT_TYPE": "Number"
+}
+{
+    "PID": 91,
+    "PROBLEM": "Sum of numbers between range a and b (FOR LOOP)",
+    "CODE": "CODE_PID_91.py",
+    "FLOWCHART": "FLOWCHART_PID_91.png",
+    "PROBLEM_TYPE": "Iterative",
+    "INPUT_TYPE": "Number",
+    "OUTPUT_TYPE": "Number"
+}
+{
+    "PID": 92,
+    "PROBLEM": "Sum of numbers between range a and b (WHILE LOOP)",
+    "CODE": "CODE_PID_92.py",
+    "FLOWCHART": "FLOWCHART_PID_92.png",
+    "PROBLEM_TYPE": "Iterative",
+    "INPUT_TYPE": "Number",
+    "OUTPUT_TYPE": "Number"
+}
+{
+    "PID": 93,
+    "PROBLEM": "Sum of even numbers between range a and b (FOR LOOP)",
+    "CODE": "CODE_PID_93.py",
+    "FLOWCHART": "FLOWCHART_PID_93.png",
+    "PROBLEM_TYPE": "Iterative, Conditional",
+    "INPUT_TYPE": "Number",
+    "OUTPUT_TYPE": "Number"
+}
+{
+    "PID": 94,
+    "PROBLEM": "Sum of even numbers between range a and b (WHILE LOOP)",
+    "CODE": "CODE_PID_94.py",
+    "FLOWCHART": "FLOWCHART_PID_94.png",
+    "PROBLEM_TYPE": "Iterative, Conditional",
+    "INPUT_TYPE": "Number",
+    "OUTPUT_TYPE": "Number"
+}
+{
+    "PID": 95,
+    "PROBLEM": "Sum of odd numbers between range a and b (FOR LOOP)",
+    "CODE": "CODE_PID_95.py",
+    "FLOWCHART": "FLOWCHART_PID_95.png",
+    "PROBLEM_TYPE": "Iterative, Conditional",
+    "INPUT_TYPE": "Number",
+    "OUTPUT_TYPE": "Number"
+}
+{
+    "PID": 96,
+    "PROBLEM": "Sum of odd numbers between range a and b (WHILE LOOP)",
+    "CODE": "CODE_PID_96.py",
+    "FLOWCHART": "FLOWCHART_PID_96.png",
+    "PROBLEM_TYPE": "Iterative, Conditional",
+    "INPUT_TYPE": "Number",
+    "OUTPUT_TYPE": "Number"
+}
+{
+    "PID": 97,
+    "PROBLEM": "Sum of numbers between range a and b which are divisible by k (FOR LOOP)",
+    "CODE": "CODE_PID_97.py",
+    "FLOWCHART": "FLOWCHART_PID_97.png",
+    "PROBLEM_TYPE": "Iterative, Conditional",
+    "INPUT_TYPE": "Number",
+    "OUTPUT_TYPE": "Number"
+}
+{
+    "PID": 98,
+    "PROBLEM": "Sum of numbers between range a and b which are divisible by k (WHILE LOOP)",
+    "CODE": "CODE_PID_98.py",
+    "FLOWCHART": "FLOWCHART_PID_98.png",
+    "PROBLEM_TYPE": "Iterative, Conditional",
+    "INPUT_TYPE": "Number",
+    "OUTPUT_TYPE": "Number"
+}
+{
+    "PID": 99,
+    "PROBLEM": "Sum of natural numbers which are less than N and divisible by k (FOR LOOP)",
+    "CODE": "CODE_PID_99.py",
+    "FLOWCHART": "FLOWCHART_PID_99.png",
+    "PROBLEM_TYPE": "Iterative, Conditional",
+    "INPUT_TYPE": "Number",
+    "OUTPUT_TYPE": "Number"
+}
+{
+    "PID": 100,
+    "PROBLEM": "Sum of natural numbers which are less than N and divisible by k (WHILE LOOP)",
+    "CODE": "CODE_PID_100.py",
+    "FLOWCHART": "FLOWCHART_PID_100.png",
+    "PROBLEM_TYPE": "Iterative, Conditional",
+    "INPUT_TYPE": "Number",
+    "OUTPUT_TYPE": "Number"
+}
+{
+    "PID": 101,
+    "PROBLEM": "Sum of N terms of AP series (FOR LOOP)",
+    "CODE": "CODE_PID_101.py",
+    "FLOWCHART": "FLOWCHART_PID_101.png",
+    "PROBLEM_TYPE": "Iterative",
+    "INPUT_TYPE": "Number",
+    "OUTPUT_TYPE": "Number"
+}
+{
+    "PID": 102,
+    "PROBLEM": "Sum of N terms of AP series (WHILE LOOP)",
+    "CODE": "CODE_PID_102.py",
+    "FLOWCHART": "FLOWCHART_PID_102.png",
+    "PROBLEM_TYPE": "Iterative",
+    "INPUT_TYPE": "Number",
+    "OUTPUT_TYPE": "Number"
+}
+{
+    "PID": 103,
+    "PROBLEM": "Sum of N terms of GP series (FOR LOOP)",
+    "CODE": "CODE_PID_103.py",
+    "FLOWCHART": "FLOWCHART_PID_103.png",
+    "PROBLEM_TYPE": "Iterative",
+    "INPUT_TYPE": "Number",
+    "OUTPUT_TYPE": "Number"
+}
+{
+    "PID": 104,
+    "PROBLEM": "Sum of N terms of GP series (WHILE LOOP)",
+    "CODE": "CODE_PID_104.py",
+    "FLOWCHART": "FLOWCHART_PID_104.png",
+    "PROBLEM_TYPE": "Iterative",
+    "INPUT_TYPE": "Number",
+    "OUTPUT_TYPE": "Number"
+}
+{
+    "PID": 105,
+    "PROBLEM": "Sum of N terms of HP series (FOR LOOP)",
+    "CODE": "CODE_PID_105.py",
+    "FLOWCHART": "FLOWCHART_PID_105.png",
+    "PROBLEM_TYPE": "Iterative",
+    "INPUT_TYPE": "Number",
+    "OUTPUT_TYPE": "Number"
+}
+{
+    "PID": 106,
+    "PROBLEM": "Sum of N terms of HP series (WHILE LOOP)",
+    "CODE": "CODE_PID_106.py",
+    "FLOWCHART": "FLOWCHART_PID_106.png",
+    "PROBLEM_TYPE": "Iterative",
+    "INPUT_TYPE": "Number",
+    "OUTPUT_TYPE": "Number"
+}
+{
+    "PID": 107,
+    "PROBLEM": "Sum of first and last digit of a number",
+    "CODE": "CODE_PID_107.py",
+    "FLOWCHART": "FLOWCHART_PID_107.png",
+    "PROBLEM_TYPE": "Iterative",
+    "INPUT_TYPE": "Number",
+    "OUTPUT_TYPE": "Number"
+}
+{
+    "PID": 108,
+    "PROBLEM": "Sum of all factors of a number (FOR LOOP)",
+    "CODE": "CODE_PID_108.py",
+    "FLOWCHART": "FLOWCHART_PID_108.png",
+    "PROBLEM_TYPE": "Iterative, Conditional",
+    "INPUT_TYPE": "Number",
+    "OUTPUT_TYPE": "Number"
+}
+{
+    "PID": 109,
+    "PROBLEM": "Sum of all factors of a number (WHILE LOOP)",
+    "CODE": "CODE_PID_109.py",
+    "FLOWCHART": "FLOWCHART_PID_109.png",
+    "PROBLEM_TYPE": "Iterative, Conditional",
+    "INPUT_TYPE": "Number",
+    "OUTPUT_TYPE": "Number"
+}
+{
+    "PID": 110,
+    "PROBLEM": "Find power of a number (FOR LOOP)",
+    "CODE": "CODE_PID_110.py",
+    "FLOWCHART": "FLOWCHART_PID_110.png",
+    "PROBLEM_TYPE": "Iterative",
+    "INPUT_TYPE": "Number",
+    "OUTPUT_TYPE": "Number"
+}
+{
+    "PID": 111,
+    "PROBLEM": "Find power of a number (WHILE LOOP)",
+    "CODE": "CODE_PID_111.py",
+    "FLOWCHART": "FLOWCHART_PID_111.png",
+    "PROBLEM_TYPE": "Iterative",
+    "INPUT_TYPE": "Number",
+    "OUTPUT_TYPE": "Number"
+}
+{
+    "PID": 112,
+    "PROBLEM": "Find N times M (FOR LOOP)",
+    "CODE": "CODE_PID_112.py",
+    "FLOWCHART": "FLOWCHART_PID_112.png",
+    "PROBLEM_TYPE": "Iterative",
+    "INPUT_TYPE": "Number",
+    "OUTPUT_TYPE": "Number"
+}
+{
+    "PID": 113,
+    "PROBLEM": "Find N times M (WHILE LOOP)",
+    "CODE": "CODE_PID_113.py",
+    "FLOWCHART": "FLOWCHART_PID_113.png",
+    "PROBLEM_TYPE": "Iterative",
+    "INPUT_TYPE": "Number",
+    "OUTPUT_TYPE": "Number"
+}
+{
+    "PID": 114,
+    "PROBLEM": "Find HCF of two numbers (FOR LOOP)",
+    "CODE": "CODE_PID_114.py",
+    "FLOWCHART": "FLOWCHART_PID_114.png",
+    "PROBLEM_TYPE": "Iterative, Conditional",
+    "INPUT_TYPE": "Number",
+    "OUTPUT_TYPE": "Number"
+}
+{
+    "PID": 115,
+    "PROBLEM": "Find HCF of two numbers (WHILE LOOP)",
+    "CODE": "CODE_PID_115.py",
+    "FLOWCHART": "FLOWCHART_PID_115.png",
+    "PROBLEM_TYPE": "Iterative, Conditional",
+    "INPUT_TYPE": "Number",
+    "OUTPUT_TYPE": "Number"
+}
+{
+    "PID": 116,
+    "PROBLEM": "Find LCM of two numbers (FOR LOOP)",
+    "CODE": "CODE_PID_116.py",
+    "FLOWCHART": "FLOWCHART_PID_116.png",
+    "PROBLEM_TYPE": "Iterative, Conditional",
+    "INPUT_TYPE": "Number",
+    "OUTPUT_TYPE": "Number"
+}
+{
+    "PID": 117,
+    "PROBLEM": "Print Nth Fibbonacci number (FOR LOOP)",
+    "CODE": "CODE_PID_117.py",
+    "FLOWCHART": "FLOWCHART_PID_117.png",
+    "PROBLEM_TYPE": "Iterative, Conditional",
+    "INPUT_TYPE": "Number",
+    "OUTPUT_TYPE": "Number"
+}
+{
+    "PID": 118,
+    "PROBLEM": "Print Nth Tribonacci number (FOR LOOP)",
+    "CODE": "CODE_PID_118.py",
+    "FLOWCHART": "FLOWCHART_PID_118.png",
+    "PROBLEM_TYPE": "Iterative, Conditional",
+    "INPUT_TYPE": "Number",
+    "OUTPUT_TYPE": "Number"
+}
+{
+    "PID": 119,
+    "PROBLEM": "Print Nth term of an AP (FOR LOOP)",
+    "CODE": "CODE_PID_119.py",
+    "FLOWCHART": "FLOWCHART_PID_119.png",
+    "PROBLEM_TYPE": "Iterative",
+    "INPUT_TYPE": "Number",
+    "OUTPUT_TYPE": "Number"
+}
+{
+    "PID": 120,
+    "PROBLEM": "Print Nth term of an AP (WHILE LOOP)",
+    "CODE": "CODE_PID_120.py",
+    "FLOWCHART": "FLOWCHART_PID_120.png",
+    "PROBLEM_TYPE": "Iterative",
+    "INPUT_TYPE": "Number",
+    "OUTPUT_TYPE": "Number"
+}
+{
+    "PID": 121,
+    "PROBLEM": "Print Nth term of GP (FOR LOOP)",
+    "CODE": "CODE_PID_121.py",
+    "FLOWCHART": "FLOWCHART_PID_121.png",
+    "PROBLEM_TYPE": "Iterative",
+    "INPUT_TYPE": "Number",
+    "OUTPUT_TYPE": "Number"
+}
+{
+    "PID": 122,
+    "PROBLEM": "Print Nth term of GP (WHILE LOOP)",
+    "CODE": "CODE_PID_122.py",
+    "FLOWCHART": "FLOWCHART_PID_122.png",
+    "PROBLEM_TYPE": "Iterative",
+    "INPUT_TYPE": "Number",
+    "OUTPUT_TYPE": "Number"
+}
+{
+    "PID": 123,
+    "PROBLEM": "Print Nth term of HP (FOR LOOP)",
+    "CODE": "CODE_PID_123.py",
+    "FLOWCHART": "FLOWCHART_PID_123.png",
+    "PROBLEM_TYPE": "Iterative",
+    "INPUT_TYPE": "Number",
+    "OUTPUT_TYPE": "Number"
+}
+{
+    "PID": 124,
+    "PROBLEM": "Print Nth term of HP (WHILE LOOP)",
+    "CODE": "CODE_PID_124.py",
+    "FLOWCHART": "FLOWCHART_PID_124.png",
+    "PROBLEM_TYPE": "Iterative",
+    "INPUT_TYPE": "Number",
+    "OUTPUT_TYPE": "Number"
+}
+{
+    "PID": 125,
+    "PROBLEM": "Print Nth term of series 1, 11, 111, \u2026 (FOR LOOP)",
+    "CODE": "CODE_PID_125.py",
+    "FLOWCHART": "FLOWCHART_PID_125.png",
+    "PROBLEM_TYPE": "Iterative",
+    "INPUT_TYPE": "Number",
+    "OUTPUT_TYPE": "Number"
+}
+{
+    "PID": 126,
+    "PROBLEM": "Print Nth term of series 1, 11, 111, \u2026 (WHILE LOOP)",
+    "CODE": "CODE_PID_126.py",
+    "FLOWCHART": "FLOWCHART_PID_126.png",
+    "PROBLEM_TYPE": "Iterative",
+    "INPUT_TYPE": "Number",
+    "OUTPUT_TYPE": "Number"
+}
+{
+    "PID": 127,
+    "PROBLEM": "Print Nth term of series 1, 1/k, 1/2k, 1/3k, \u2026 (FOR LOOP)",
+    "CODE": "CODE_PID_127.py",
+    "FLOWCHART": "FLOWCHART_PID_127.png",
+    "PROBLEM_TYPE": "Iterative",
+    "INPUT_TYPE": "Number",
+    "OUTPUT_TYPE": "Number"
+}
+{
+    "PID": 128,
+    "PROBLEM": "Print Nth term of series 1, 1/k, 1/2k, 1/3k, \u2026 (WHILE LOOP)",
+    "CODE": "CODE_PID_128.py",
+    "FLOWCHART": "FLOWCHART_PID_128.png",
+    "PROBLEM_TYPE": "Iterative",
+    "INPUT_TYPE": "Number",
+    "OUTPUT_TYPE": "Number"
+}
+{
+    "PID": 129,
+    "PROBLEM": "Sum of N term of series 1, 11, 111, \u2026 (FOR LOOP)",
+    "CODE": "CODE_PID_129.py",
+    "FLOWCHART": "FLOWCHART_PID_129.png",
+    "PROBLEM_TYPE": "Iterative",
+    "INPUT_TYPE": "Number",
+    "OUTPUT_TYPE": "Number"
+}
+{
+    "PID": 130,
+    "PROBLEM": "Sum of N term of series 1, 11, 111, \u2026 (WHILE LOOP)",
+    "CODE": "CODE_PID_130.py",
+    "FLOWCHART": "FLOWCHART_PID_130.png",
+    "PROBLEM_TYPE": "Iterative",
+    "INPUT_TYPE": "Number",
+    "OUTPUT_TYPE": "Number"
+}
+{
+    "PID": 131,
+    "PROBLEM": "Sum of N term of series 1, 1/k, 1/2k, 1/3k, \u2026 (FOR LOOP)",
+    "CODE": "CODE_PID_131.py",
+    "FLOWCHART": "FLOWCHART_PID_131.png",
+    "PROBLEM_TYPE": "Iterative",
+    "INPUT_TYPE": "Number",
+    "OUTPUT_TYPE": "Number"
+}
+{
+    "PID": 132,
+    "PROBLEM": "Sum of N term of series 1, 1/k, 1/2k, 1/3k, \u2026 (WHILE LOOP)",
+    "CODE": "CODE_PID_132.py",
+    "FLOWCHART": "FLOWCHART_PID_132.png",
+    "PROBLEM_TYPE": "Iterative",
+    "INPUT_TYPE": "Number",
+    "OUTPUT_TYPE": "Number"
+}
+{
+    "PID": 133,
+    "PROBLEM": "Sum of N terms of series 1, 4, 9, .. N^2 (FOR LOOP)",
+    "CODE": "CODE_PID_133.py",
+    "FLOWCHART": "FLOWCHART_PID_133.png",
+    "PROBLEM_TYPE": "Iterative",
+    "INPUT_TYPE": "Number",
+    "OUTPUT_TYPE": "Number"
+}
+{
+    "PID": 134,
+    "PROBLEM": "Sum of N terms of series 1, 4, 9, .. N^2 (WHILE LOOP)",
+    "CODE": "CODE_PID_134.py",
+    "FLOWCHART": "FLOWCHART_PID_134.png",
+    "PROBLEM_TYPE": "Iterative",
+    "INPUT_TYPE": "Number",
+    "OUTPUT_TYPE": "Number"
+}
+{
+    "PID": 135,
+    "PROBLEM": "Sum of N terms of series 1, 8, 27, .. N^3 (FOR LOOP)",
+    "CODE": "CODE_PID_135.py",
+    "FLOWCHART": "FLOWCHART_PID_135.png",
+    "PROBLEM_TYPE": "Iterative",
+    "INPUT_TYPE": "Number",
+    "OUTPUT_TYPE": "Number"
+}
+{
+    "PID": 136,
+    "PROBLEM": "Sum of N terms of series 1, 8, 27, .. N^3 (WHILE LOOP)",
+    "CODE": "CODE_PID_136.py",
+    "FLOWCHART": "FLOWCHART_PID_136.png",
+    "PROBLEM_TYPE": "Iterative",
+    "INPUT_TYPE": "Number",
+    "OUTPUT_TYPE": "Number"
+}
+{
+    "PID": 137,
+    "PROBLEM": "Find floor square root of a given number",
+    "CODE": "CODE_PID_137.py",
+    "FLOWCHART": "FLOWCHART_PID_137.png",
+    "PROBLEM_TYPE": "Iterative, Conditional",
+    "INPUT_TYPE": "Number",
+    "OUTPUT_TYPE": "Number"
+}
+{
+    "PID": 138,
+    "PROBLEM": "Check if given number is a Fibonacci number or not",
+    "CODE": "CODE_PID_138.py",
+    "FLOWCHART": "FLOWCHART_PID_138.png",
+    "PROBLEM_TYPE": "Iterative, Conditional",
+    "INPUT_TYPE": "Number",
+    "OUTPUT_TYPE": "String"
+}
+{
+    "PID": 139,
+    "PROBLEM": "Check if given number is a Tribonacci number or not",
+    "CODE": "CODE_PID_139.py",
+    "FLOWCHART": "FLOWCHART_PID_139.png",
+    "PROBLEM_TYPE": "Iterative, Conditional",
+    "INPUT_TYPE": "Number",
+    "OUTPUT_TYPE": "String"
+}
+{
+    "PID": 140,
+    "PROBLEM": "Check if a given number is perfect number or not (FOR LOOP)",
+    "CODE": "CODE_PID_140.py",
+    "FLOWCHART": "FLOWCHART_PID_140.png",
+    "PROBLEM_TYPE": "Iterative, Conditional",
+    "INPUT_TYPE": "Number",
+    "OUTPUT_TYPE": "String"
+}
+{
+    "PID": 141,
+    "PROBLEM": "Check if a given number is perfect number or not (WHILE LOOP)",
+    "CODE": "CODE_PID_141.py",
+    "FLOWCHART": "FLOWCHART_PID_141.png",
+    "PROBLEM_TYPE": "Iterative, Conditional",
+    "INPUT_TYPE": "Number",
+    "OUTPUT_TYPE": "String"
+}
+{
+    "PID": 142,
+    "PROBLEM": "Check if a given number is prime number or not (FOR LOOP)",
+    "CODE": "CODE_PID_142.py",
+    "FLOWCHART": "FLOWCHART_PID_142.png",
+    "PROBLEM_TYPE": "Iterative, Conditional",
+    "INPUT_TYPE": "Number",
+    "OUTPUT_TYPE": "String"
+}
+{
+    "PID": 143,
+    "PROBLEM": "Check if a given number is prime number or not (WHILE LOOP)",
+    "CODE": "CODE_PID_143.py",
+    "FLOWCHART": "FLOWCHART_PID_143.png",
+    "PROBLEM_TYPE": "Iterative, Conditional",
+    "INPUT_TYPE": "Number",
+    "OUTPUT_TYPE": "String"
+}
+{
+    "PID": 144,
+    "PROBLEM": "Check if a given number is palindrome or not",
+    "CODE": "CODE_PID_144.py",
+    "FLOWCHART": "FLOWCHART_PID_144.png",
+    "PROBLEM_TYPE": "Iterative, Conditional",
+    "INPUT_TYPE": "Number",
+    "OUTPUT_TYPE": "String"
+}
+{
+    "PID": 145,
+    "PROBLEM": "Check if a given number is armstrong or not",
+    "CODE": "CODE_PID_145.py",
+    "FLOWCHART": "FLOWCHART_PID_145.png",
+    "PROBLEM_TYPE": "Iterative, Conditional",
+    "INPUT_TYPE": "Number",
+    "OUTPUT_TYPE": "String"
+}
+{
+    "PID": 146,
+    "PROBLEM": "Check if a given number is duck number or not. A duck number is a number which contains digit 0.",
+    "CODE": "CODE_PID_146.py",
+    "FLOWCHART": "FLOWCHART_PID_146.png",
+    "PROBLEM_TYPE": "Iterative, Conditional",
+    "INPUT_TYPE": "Number",
+    "OUTPUT_TYPE": "String"
+}
+{
+    "PID": 147,
+    "PROBLEM": "Check if a particular digit is present in the given number or not.",
+    "CODE": "CODE_PID_147.py",
+    "FLOWCHART": "FLOWCHART_PID_147.png",
+    "PROBLEM_TYPE": "Iterative, Conditional",
+    "INPUT_TYPE": "Number",
+    "OUTPUT_TYPE": "String"
+}
+{
+    "PID": 148,
+    "PROBLEM": "Check if the given input is valid binary number or not.",
+    "CODE": "CODE_PID_148.py",
+    "FLOWCHART": "FLOWCHART_PID_148.png",
+    "PROBLEM_TYPE": "Iterative, Conditional",
+    "INPUT_TYPE": "Number",
+    "OUTPUT_TYPE": "String"
+}
+{
+    "PID": 149,
+    "PROBLEM": "Check if given input is valid octal number or not.",
+    "CODE": "CODE_PID_149.py",
+    "FLOWCHART": "FLOWCHART_PID_149.png",
+    "PROBLEM_TYPE": "Iterative, Conditional",
+    "INPUT_TYPE": "Number",
+    "OUTPUT_TYPE": "String"
+}
+{
+    "PID": 150,
+    "PROBLEM": "Count of number of factors of a number (FOR LOOP)",
+    "CODE": "CODE_PID_150.py",
+    "FLOWCHART": "FLOWCHART_PID_150.png",
+    "PROBLEM_TYPE": "Iterative, Conditional",
+    "INPUT_TYPE": "Number",
+    "OUTPUT_TYPE": "Number"
+}
+{
+    "PID": 151,
+    "PROBLEM": "Count of number of factors of a number (WHILE LOOP)",
+    "CODE": "CODE_PID_151.py",
+    "FLOWCHART": "FLOWCHART_PID_151.png",
+    "PROBLEM_TYPE": "Iterative, Conditional",
+    "INPUT_TYPE": "Number",
+    "OUTPUT_TYPE": "Number"
+}
+{
+    "PID": 152,
+    "PROBLEM": "Convert string to lower case (FOR LOOP)",
+    "CODE": "CODE_PID_152.py",
+    "FLOWCHART": "FLOWCHART_PID_152.png",
+    "PROBLEM_TYPE": "Iterative, Conditional",
+    "INPUT_TYPE": "String",
+    "OUTPUT_TYPE": "Number"
+}
+{
+    "PID": 153,
+    "PROBLEM": "Convert string to lower case (WHILE LOOP)",
+    "CODE": "CODE_PID_153.py",
+    "FLOWCHART": "FLOWCHART_PID_153.png",
+    "PROBLEM_TYPE": "Iterative, Conditional",
+    "INPUT_TYPE": "String",
+    "OUTPUT_TYPE": "Number"
+}
+{
+    "PID": 154,
+    "PROBLEM": "Convert string to upper case (FOR LOOP)",
+    "CODE": "CODE_PID_154.py",
+    "FLOWCHART": "FLOWCHART_PID_154.png",
+    "PROBLEM_TYPE": "Iterative, Conditional",
+    "INPUT_TYPE": "String",
+    "OUTPUT_TYPE": "Number"
+}
+{
+    "PID": 155,
+    "PROBLEM": "Convert string to upper case (WHILE LOOP)",
+    "CODE": "CODE_PID_155.py",
+    "FLOWCHART": "FLOWCHART_PID_155.png",
+    "PROBLEM_TYPE": "Iterative, Conditional",
+    "INPUT_TYPE": "String",
+    "OUTPUT_TYPE": "Number"
+}
+{
+    "PID": 156,
+    "PROBLEM": "Count number of letters in the string (FOR LOOP)",
+    "CODE": "CODE_PID_156.py",
+    "FLOWCHART": "FLOWCHART_PID_156.png",
+    "PROBLEM_TYPE": "Iterative, Conditional",
+    "INPUT_TYPE": "String",
+    "OUTPUT_TYPE": "Number"
+}
+{
+    "PID": 157,
+    "PROBLEM": "Count number of letters in the string (WHILE LOOP)",
+    "CODE": "CODE_PID_157.py",
+    "FLOWCHART": "FLOWCHART_PID_157.png",
+    "PROBLEM_TYPE": "Iterative, Conditional",
+    "INPUT_TYPE": "String",
+    "OUTPUT_TYPE": "Number"
+}
+{
+    "PID": 158,
+    "PROBLEM": "Count number of upper case letters in the string (FOR LOOP)",
+    "CODE": "CODE_PID_158.py",
+    "FLOWCHART": "FLOWCHART_PID_158.png",
+    "PROBLEM_TYPE": "Iterative, Conditional",
+    "INPUT_TYPE": "String",
+    "OUTPUT_TYPE": "Number"
+}
+{
+    "PID": 159,
+    "PROBLEM": "Count number of upper case letters in the string (WHILE LOOP)",
+    "CODE": "CODE_PID_159.py",
+    "FLOWCHART": "FLOWCHART_PID_159.png",
+    "PROBLEM_TYPE": "Iterative, Conditional",
+    "INPUT_TYPE": "String",
+    "OUTPUT_TYPE": "Number"
+}
+{
+    "PID": 160,
+    "PROBLEM": "Count number of lower case letters in the string (FOR LOOP)",
+    "CODE": "CODE_PID_160.py",
+    "FLOWCHART": "FLOWCHART_PID_160.png",
+    "PROBLEM_TYPE": "Iterative, Conditional",
+    "INPUT_TYPE": "String",
+    "OUTPUT_TYPE": "Number"
+}
+{
+    "PID": 161,
+    "PROBLEM": "Count number of lower case letters in the string (WHILE LOOP)",
+    "CODE": "CODE_PID_161.py",
+    "FLOWCHART": "FLOWCHART_PID_161.png",
+    "PROBLEM_TYPE": "Iterative, Conditional",
+    "INPUT_TYPE": "String",
+    "OUTPUT_TYPE": "Number"
+}
+{
+    "PID": 162,
+    "PROBLEM": "Count number of digits in the string (FOR LOOP)",
+    "CODE": "CODE_PID_162.py",
+    "FLOWCHART": "FLOWCHART_PID_162.png",
+    "PROBLEM_TYPE": "Iterative, Conditional",
+    "INPUT_TYPE": "String",
+    "OUTPUT_TYPE": "Number"
+}
+{
+    "PID": 163,
+    "PROBLEM": "Count number of digits in the string (WHILE LOOP)",
+    "CODE": "CODE_PID_163.py",
+    "FLOWCHART": "FLOWCHART_PID_163.png",
+    "PROBLEM_TYPE": "Iterative, Conditional",
+    "INPUT_TYPE": "String",
+    "OUTPUT_TYPE": "Number"
+}
+{
+    "PID": 164,
+    "PROBLEM": "Count number of spaces in the string (FOR LOOP)",
+    "CODE": "CODE_PID_164.py",
+    "FLOWCHART": "FLOWCHART_PID_164.png",
+    "PROBLEM_TYPE": "Iterative, Conditional",
+    "INPUT_TYPE": "String",
+    "OUTPUT_TYPE": "Number"
+}
+{
+    "PID": 165,
+    "PROBLEM": "Count number of spaces in the string (WHILE LOOP)",
+    "CODE": "CODE_PID_165.py",
+    "FLOWCHART": "FLOWCHART_PID_165.png",
+    "PROBLEM_TYPE": "Iterative, Conditional",
+    "INPUT_TYPE": "String",
+    "OUTPUT_TYPE": "Number"
+}
+{
+    "PID": 166,
+    "PROBLEM": "Count number of words in the string (FOR LOOP)",
+    "CODE": "CODE_PID_166.py",
+    "FLOWCHART": "FLOWCHART_PID_166.png",
+    "PROBLEM_TYPE": "Iterative, Conditional",
+    "INPUT_TYPE": "String",
+    "OUTPUT_TYPE": "Number"
+}
+{
+    "PID": 167,
+    "PROBLEM": "Count number of words in the string (WHILE LOOP)",
+    "CODE": "CODE_PID_167.py",
+    "FLOWCHART": "FLOWCHART_PID_167.png",
+    "PROBLEM_TYPE": "Iterative, Conditional",
+    "INPUT_TYPE": "String",
+    "OUTPUT_TYPE": "Number"
+}
+{
+    "PID": 168,
+    "PROBLEM": "Count number of vowels in a word (FOR LOOP)",
+    "CODE": "CODE_PID_168.py",
+    "FLOWCHART": "FLOWCHART_PID_168.png",
+    "PROBLEM_TYPE": "Iterative, Conditional",
+    "INPUT_TYPE": "String",
+    "OUTPUT_TYPE": "Number"
+}
+{
+    "PID": 169,
+    "PROBLEM": "Count number of vowels in a word (WHILE LOOP)",
+    "CODE": "CODE_PID_169.py",
+    "FLOWCHART": "FLOWCHART_PID_169.png",
+    "PROBLEM_TYPE": "Iterative, Conditional",
+    "INPUT_TYPE": "String",
+    "OUTPUT_TYPE": "Number"
+}
+{
+    "PID": 170,
+    "PROBLEM": "Count number of consonants in a word (FOR LOOP)",
+    "CODE": "CODE_PID_170.py",
+    "FLOWCHART": "FLOWCHART_PID_170.png",
+    "PROBLEM_TYPE": "Iterative, Conditional",
+    "INPUT_TYPE": "String",
+    "OUTPUT_TYPE": "Number"
+}
+{
+    "PID": 171,
+    "PROBLEM": "Count number of consonants in a word (WHILE LOOP)",
+    "CODE": "CODE_PID_171.py",
+    "FLOWCHART": "FLOWCHART_PID_171.png",
+    "PROBLEM_TYPE": "Iterative, Conditional",
+    "INPUT_TYPE": "String",
+    "OUTPUT_TYPE": "Number"
+}
+{
+    "PID": 172,
+    "PROBLEM": "Find reverse of the string (FOR LOOP)",
+    "CODE": "CODE_PID_172.py",
+    "FLOWCHART": "FLOWCHART_PID_172.png",
+    "PROBLEM_TYPE": "Iterative",
+    "INPUT_TYPE": "String",
+    "OUTPUT_TYPE": "String"
+}
+{
+    "PID": 173,
+    "PROBLEM": "Find reverse of the string (WHILE LOOP)",
+    "CODE": "CODE_PID_173.py",
+    "FLOWCHART": "FLOWCHART_PID_173.png",
+    "PROBLEM_TYPE": "Iterative",
+    "INPUT_TYPE": "String",
+    "OUTPUT_TYPE": "String"
+}
+{
+    "PID": 174,
+    "PROBLEM": "Find count of a particular character in a string (FOR LOOP)",
+    "CODE": "CODE_PID_174.py",
+    "FLOWCHART": "FLOWCHART_PID_174.png",
+    "PROBLEM_TYPE": "Iterative, Conditional",
+    "INPUT_TYPE": "String",
+    "OUTPUT_TYPE": "Number"
+}
+{
+    "PID": 175,
+    "PROBLEM": "Find count of a particular character in a string (WHILE LOOP)",
+    "CODE": "CODE_PID_175.py",
+    "FLOWCHART": "FLOWCHART_PID_175.png",
+    "PROBLEM_TYPE": "Iterative, Conditional",
+    "INPUT_TYPE": "String",
+    "OUTPUT_TYPE": "Number"
+}
+{
+    "PID": 176,
+    "PROBLEM": "Check if a particular character is present in the string or not (FOR LOOP)",
+    "CODE": "CODE_PID_176.py",
+    "FLOWCHART": "FLOWCHART_PID_176.png",
+    "PROBLEM_TYPE": "Iterative, Conditional",
+    "INPUT_TYPE": "String",
+    "OUTPUT_TYPE": "String"
+}
+{
+    "PID": 177,
+    "PROBLEM": "Check if a particular character is present in the string or not (WHILE LOOP)",
+    "CODE": "CODE_PID_177.py",
+    "FLOWCHART": "FLOWCHART_PID_177.png",
+    "PROBLEM_TYPE": "Iterative, Conditional",
+    "INPUT_TYPE": "String",
+    "OUTPUT_TYPE": "String"
+}
+{
+    "PID": 178,
+    "PROBLEM": "Find first index of a character in a string (FOR LOOP)",
+    "CODE": "CODE_PID_178.py",
+    "FLOWCHART": "FLOWCHART_PID_178.png",
+    "PROBLEM_TYPE": "Iterative, Conditional",
+    "INPUT_TYPE": "String",
+    "OUTPUT_TYPE": "Number"
+}
+{
+    "PID": 179,
+    "PROBLEM": "Find first index of a character in a string (WHILE LOOP)",
+    "CODE": "CODE_PID_179.py",
+    "FLOWCHART": "FLOWCHART_PID_179.png",
+    "PROBLEM_TYPE": "Iterative, Conditional",
+    "INPUT_TYPE": "String",
+    "OUTPUT_TYPE": "Number"
+}
+{
+    "PID": 180,
+    "PROBLEM": "Find last index of a character in a string (FOR LOOP)",
+    "CODE": "CODE_PID_180.py",
+    "FLOWCHART": "FLOWCHART_PID_180.png",
+    "PROBLEM_TYPE": "Iterative, Conditional",
+    "INPUT_TYPE": "String",
+    "OUTPUT_TYPE": "Number"
+}
+{
+    "PID": 181,
+    "PROBLEM": "Find last index of a character in a string (WHILE LOOP)",
+    "CODE": "CODE_PID_181.py",
+    "FLOWCHART": "FLOWCHART_PID_181.png",
+    "PROBLEM_TYPE": "Iterative, Conditional",
+    "INPUT_TYPE": "String",
+    "OUTPUT_TYPE": "Number"
+}
+{
+    "PID": 182,
+    "PROBLEM": "Find Nth term of AP",
+    "CODE": "CODE_PID_182.py",
+    "FLOWCHART": "FLOWCHART_PID_182.png",
+    "PROBLEM_TYPE": "Sequential",
+    "INPUT_TYPE": "String",
+    "OUTPUT_TYPE": "Number"
+}
+{
+    "PID": 183,
+    "PROBLEM": "Find Nth term of GP",
+    "CODE": "CODE_PID_183.py",
+    "FLOWCHART": "FLOWCHART_PID_183.png",
+    "PROBLEM_TYPE": "Sequential",
+    "INPUT_TYPE": "Number",
+    "OUTPUT_TYPE": "Number"
+}
+{
+    "PID": 184,
+    "PROBLEM": "Find Nth term of HP",
+    "CODE": "CODE_PID_184.py",
+    "FLOWCHART": "FLOWCHART_PID_184.png",
+    "PROBLEM_TYPE": "Sequential",
+    "INPUT_TYPE": "Number",
+    "OUTPUT_TYPE": "Number"
+}
+{
+    "PID": 185,
+    "PROBLEM": "Find sum of N terms of an AP",
+    "CODE": "CODE_PID_185.py",
+    "FLOWCHART": "FLOWCHART_PID_185.png",
+    "PROBLEM_TYPE": "Sequential",
+    "INPUT_TYPE": "Number",
+    "OUTPUT_TYPE": "Number"
+}
+{
+    "PID": 186,
+    "PROBLEM": "Find sum of N terms of a GP",
+    "CODE": "CODE_PID_186.py",
+    "FLOWCHART": "FLOWCHART_PID_186.png",
+    "PROBLEM_TYPE": "Sequential",
+    "INPUT_TYPE": "Number",
+    "OUTPUT_TYPE": "Number"
+}
+{
+    "PID": 187,
+    "PROBLEM": "Find Simple Interest, given principle, rate and time",
+    "CODE": "CODE_PID_187.py",
+    "FLOWCHART": "FLOWCHART_PID_187.png",
+    "PROBLEM_TYPE": "Sequential",
+    "INPUT_TYPE": "Number",
+    "OUTPUT_TYPE": "Number"
+}
+{
+    "PID": 188,
+    "PROBLEM": "Find Compound Interest, given principle, rate and time",
+    "CODE": "CODE_PID_188.py",
+    "FLOWCHART": "FLOWCHART_PID_188.png",
+    "PROBLEM_TYPE": "Sequential",
+    "INPUT_TYPE": "Number",
+    "OUTPUT_TYPE": "Number"
+}
+{
+    "PID": 189,
+    "PROBLEM": "Check if the string is palindrome or not (FOR LOOP)",
+    "CODE": "CODE_PID_189.py",
+    "FLOWCHART": "FLOWCHART_PID_189.png",
+    "PROBLEM_TYPE": "Iterative, Conditional",
+    "INPUT_TYPE": "String",
+    "OUTPUT_TYPE": "String"
+}
+{
+    "PID": 190,
+    "PROBLEM": "Check if the string is palindrome or not (WHILE LOOP)",
+    "CODE": "CODE_PID_190.py",
+    "FLOWCHART": "FLOWCHART_PID_190.png",
+    "PROBLEM_TYPE": "Iterative, Conditional",
+    "INPUT_TYPE": "String",
+    "OUTPUT_TYPE": "String"
+}
+{
+    "PID": 191,
+    "PROBLEM": "Check if there is atleast a letter in the string (FOR LOOP)",
+    "CODE": "CODE_PID_191.py",
+    "FLOWCHART": "FLOWCHART_PID_191.png",
+    "PROBLEM_TYPE": "Iterative, Conditional",
+    "INPUT_TYPE": "String",
+    "OUTPUT_TYPE": "String"
+}
+{
+    "PID": 192,
+    "PROBLEM": "Check if there is atleast a letter in the string (WHILE LOOP)",
+    "CODE": "CODE_PID_192.py",
+    "FLOWCHART": "FLOWCHART_PID_192.png",
+    "PROBLEM_TYPE": "Iterative, Conditional",
+    "INPUT_TYPE": "String",
+    "OUTPUT_TYPE": "String"
+}
+{
+    "PID": 193,
+    "PROBLEM": "Check if there is atleast a number in the string (FOR LOOP)",
+    "CODE": "CODE_PID_193.py",
+    "FLOWCHART": "FLOWCHART_PID_193.png",
+    "PROBLEM_TYPE": "Iterative, Conditional",
+    "INPUT_TYPE": "String",
+    "OUTPUT_TYPE": "String"
+}
+{
+    "PID": 194,
+    "PROBLEM": "Check if there is atleast a number in the string (WHILE LOOP)",
+    "CODE": "CODE_PID_194.py",
+    "FLOWCHART": "FLOWCHART_PID_194.png",
+    "PROBLEM_TYPE": "Iterative, Conditional",
+    "INPUT_TYPE": "String",
+    "OUTPUT_TYPE": "String"
+}
+{
+    "PID": 195,
+    "PROBLEM": "Extract only upper case letters from the string (FOR LOOP)",
+    "CODE": "CODE_PID_195.py",
+    "FLOWCHART": "FLOWCHART_PID_195.png",
+    "PROBLEM_TYPE": "Iterative, Conditional",
+    "INPUT_TYPE": "String",
+    "OUTPUT_TYPE": "String"
+}
+{
+    "PID": 196,
+    "PROBLEM": "Extract only upper case letters from the string (WHILE LOOP)",
+    "CODE": "CODE_PID_196.py",
+    "FLOWCHART": "FLOWCHART_PID_196.png",
+    "PROBLEM_TYPE": "Iterative, Conditional",
+    "INPUT_TYPE": "String",
+    "OUTPUT_TYPE": "String"
+}
+{
+    "PID": 197,
+    "PROBLEM": "Extract only lower case letters from the string (FOR LOOP)",
+    "CODE": "CODE_PID_197.py",
+    "FLOWCHART": "FLOWCHART_PID_197.png",
+    "PROBLEM_TYPE": "Iterative, Conditional",
+    "INPUT_TYPE": "String",
+    "OUTPUT_TYPE": "String"
+}
+{
+    "PID": 198,
+    "PROBLEM": "Extract only lower case letters from the string (WHILE LOOP)",
+    "CODE": "CODE_PID_198.py",
+    "FLOWCHART": "FLOWCHART_PID_198.png",
+    "PROBLEM_TYPE": "Iterative, Conditional",
+    "INPUT_TYPE": "String",
+    "OUTPUT_TYPE": "String"
+}
+{
+    "PID": 199,
+    "PROBLEM": "Extract only numerals from the string (FOR LOOP)",
+    "CODE": "CODE_PID_199.py",
+    "FLOWCHART": "FLOWCHART_PID_199.png",
+    "PROBLEM_TYPE": "Iterative, Conditional",
+    "INPUT_TYPE": "String",
+    "OUTPUT_TYPE": "String"
+}
+{
+    "PID": 200,
+    "PROBLEM": "Extract only numerals from the string (WHILE LOOP)",
+    "CODE": "CODE_PID_200.py",
+    "FLOWCHART": "FLOWCHART_PID_200.png",
+    "PROBLEM_TYPE": "Iterative, Conditional",
+    "INPUT_TYPE": "String",
+    "OUTPUT_TYPE": "String"
+}
+{
+    "PID": 201,
+    "PROBLEM": "Find LCM of two numbers (WHILE LOOP)",
+    "CODE": "CODE_PID_201.py",
+    "FLOWCHART": "FLOWCHART_PID_201.png",
+    "PROBLEM_TYPE": "Iterative, Conditional",
+    "INPUT_TYPE": "Number",
+    "OUTPUT_TYPE": "Number"
+}
+{
+    "PID": 202,
+    "PROBLEM": "Print Nth Fibbonacci number (WHILE LOOP)",
+    "CODE": "CODE_PID_202.py",
+    "FLOWCHART": "FLOWCHART_PID_202.png",
+    "PROBLEM_TYPE": "Iterative, Conditional",
+    "INPUT_TYPE": "Number",
+    "OUTPUT_TYPE": "Number"
+}
+{
+    "PID": 203,
+    "PROBLEM": "Print Nth Tribonacci number (WHILE LOOP)",
+    "CODE": "CODE_PID_203.py",
+    "FLOWCHART": "FLOWCHART_PID_203.png",
+    "PROBLEM_TYPE": "Iterative, Conditional",
+    "INPUT_TYPE": "Number",
+    "OUTPUT_TYPE": "Number"
+}

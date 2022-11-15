@@ -1,0 +1,18 @@
+st3=>start: start fun114
+io5=>inputoutput: input: num1, num2
+op8=>operation: hcf = 0
+op10=>operation: limit = min(num1, num2)
+cond13=>condition: for i in range(1, (limit + 1))
+cond30=>operation: hcf = i if  (((num1 % i) == 0) and ((num2 % i) == 0))
+io45=>inputoutput: output:  hcf
+e43=>end: end function return
+
+st3->io5
+io5->op8
+op8->op10
+op10->cond13
+cond13(yes)->cond30
+cond30->cond13
+cond13(no)->io45
+io45->e43
+
